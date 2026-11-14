@@ -1,0 +1,46 @@
+/-
+Modified for this repository: ported to Lean modules.
+Derived from openai/math at 4eaee87548250b2682affda7d05d947c05554bae.
+Upstream file: lean/OAI/Combinatorics/Progressions/Geometry/NativeCoordinateFiber.lean
+Changes: Lean module/public-import conversion only.
+Original notices are retained. License: Apache-2.0; see vendor/openai-math/LICENSE.
+-/
+module
+public import OAI.Combinatorics.Progressions.Estimates.NativeCrossFactorization
+@[expose] public section
+
+namespace OAI
+
+section
+
+namespace Erdos3.NativeVectorCorrelation
+
+theorem exists_fixed_coordinate {G I : Type*} [Fintype I]
+    {degree N : ℕ} [NeZero N] {p q : ℝ}
+    (H : Finset G) (hH : H.Nonempty) (f : G → I → ZMod N → ℂ)
+    (hI : (Fintype.card I : ℝ) ≤ Real.exp q)
+    (hcorr : ∀ h ∈ H, Nonempty (NativeVectorCorrelation degree N p (f h))) :
+    ∃ i : I, ∃ H' : Finset G, H' ⊆ H ∧ H'.Nonempty ∧
+      Real.exp (-q) * H.card ≤ (H'.card : ℝ) ∧
+      ∀ h ∈ H', Nonempty (NativeVectorCorrelation degree N p (fun _ : Unit => f h i)) := by
+  classical
+  let W (h : {h // h ∈ H}) := Classical.choice (hcorr h.val h.property)
+  obtain ⟨h₀, hh₀⟩ := hH
+  let code (h : G) := if hh : h ∈ H then (W ⟨h, hh⟩).coordinate else (W ⟨h₀, hh₀⟩).coordinate
+  obtain ⟨i, _, H', hsub, hH', hfixed, hdense⟩ := exists_exponential_constant_fiber
+    H ⟨h₀, hh₀⟩ code Set.univ (Set.toFinite _) (fun _ _ => Set.mem_univ _)
+    (by simpa only [Set.ncard_univ, Nat.card_eq_fintype_card] using hI)
+  refine ⟨i, H', hsub, hH', hdense, ?_⟩
+  intro h hh
+  let Wh := W ⟨h, hsub hh⟩
+  have hi : Wh.coordinate = i := by
+    simpa only [code, dite_eq_left (hsub hh)] using hfixed h hh
+  exact ⟨{ Wh with
+    coordinate := ()
+    correlation := by simpa only [hi] using Wh.correlation }⟩
+
+end Erdos3.NativeVectorCorrelation
+
+end
+
+end OAI

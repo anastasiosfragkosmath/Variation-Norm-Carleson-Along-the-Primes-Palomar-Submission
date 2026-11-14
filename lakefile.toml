@@ -1,0 +1,58 @@
+name = "prime_carleson"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["PrimeCarleson", "Challenge", "Solution"]
+
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+maxSynthPendingDepth = 3
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0"
+
+[[lean_lib]]
+name = "PrimeCarleson"
+globs = ["PrimeCarleson.+"]
+
+# Comparator challenge and solution (comparator.json): the statements of t:main and
+# t:carmax with Mathlib imports only, and the module re-exporting their proofs.
+[[lean_lib]]
+name = "Challenge"
+roots = ["Challenge"]
+
+[[lean_lib]]
+name = "Solution"
+roots = ["Solution"]
+
+# Vendored, moduleized ports (Apache-2.0); see vendor/provenance/THIRD-PARTY.md.
+# They build with the options of their verified build (only autoImplicit = false).
+[[lean_lib]]
+name = "OAI"
+srcDir = "vendor/openai-math"
+roots = ["OAI.NumberTheory.SiegelZeros.Conclusions.Theorem"]
+globs = ["OAI.+"]
+
+[lean_lib.leanOptions]
+autoImplicit = false
+maxSynthPendingDepth = 1
+weak.linter.mathlibStandardSet = false
+
+# Vendored slice of fpvandoorn/carleson (Apache-2.0), ported from Lean v4.36.0-rc1 to
+# this toolchain; see vendor/provenance/THIRD-PARTY.md. Options follow the upstream
+# lakefile (autoImplicit = false; Lean's default maxSynthPendingDepth = 1); linters off.
+[[lean_lib]]
+name = "Carleson"
+srcDir = "vendor/carleson"
+roots = ["Carleson.ToMathlib.RealInterpolation.Main", "Carleson.ToMathlib.HardyLittlewood",
+  "Carleson.ToMathlib.LorentzType"]
+globs = ["Carleson.+"]
+
+[lean_lib.leanOptions]
+autoImplicit = false
+relaxedAutoImplicit = false
+maxSynthPendingDepth = 1
+weak.linter.mathlibStandardSet = false

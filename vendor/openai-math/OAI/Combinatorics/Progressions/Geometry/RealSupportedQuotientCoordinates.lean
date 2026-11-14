@@ -1,0 +1,39 @@
+/-
+Modified for this repository: ported to Lean modules.
+Derived from openai/math at 4eaee87548250b2682affda7d05d947c05554bae.
+Upstream file: lean/OAI/Combinatorics/Progressions/Geometry/RealSupportedQuotientCoordinates.lean
+Changes: Lean module/public-import conversion only.
+Original notices are retained. License: Apache-2.0; see vendor/openai-math/LICENSE.
+-/
+module
+public import OAI.Combinatorics.Progressions.Estimates.RealifiedMultidegree
+public import OAI.Combinatorics.Progressions.Linear.BasisGradedCoordinateBasis
+@[expose] public section
+
+namespace OAI
+
+section
+
+namespace Erdos3
+
+open Module
+open scoped TensorProduct
+
+variable {V ι : Type*} [AddCommGroup V] [Module ℚ V]
+  (b : Basis ι ℚ V) (P : Submodule ℚ V) (S : Set ι)
+  (hP : P = Submodule.span ℚ (b '' S))
+
+theorem realSupportedQuotientBasis_repr_mk (x : ℝ ⊗[ℚ] V) (i : {i // i ∉ S}) :
+    ((supportedQuotientBasis b P S hP).baseChange ℝ).repr (P.mkQ.baseChange ℝ x) i =
+      (b.baseChange ℝ).repr x i := by
+  induction x using TensorProduct.inductionOn with
+  | add x y hx hy => simp only [map_add, Finsupp.add_apply, hx, hy]
+  | tmul r x =>
+    rw [LinearMap.baseChange_tmul, Basis.baseChange_repr_tmul,
+      Basis.baseChange_repr_tmul, supportedQuotientBasis_repr_mk]
+
+end Erdos3
+
+end
+
+end OAI

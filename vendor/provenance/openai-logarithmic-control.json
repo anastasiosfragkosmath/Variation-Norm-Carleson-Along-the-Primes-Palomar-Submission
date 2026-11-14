@@ -1,0 +1,17 @@
+{
+ "description": "Provenance of the one file from the openai/math DirichletL library used here.",
+ "upstream": {
+  "url": "https://github.com/openai/math",
+  "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "path": "lean/OAI/NumberTheory/DirichletL/LogarithmicControl.lean"
+ },
+ "license": "Apache-2.0, vendor/openai-math/LICENSE",
+ "file": {
+  "path": "vendor/openai-math/OAI/NumberTheory/DirichletL/LogarithmicControl.lean",
+  "vendored_sha256": "c52ac06703fdb56dee0f12d9a8a2146d888bb0cbe1edc3fa32f141136fd6b73e",
+  "lines": 558,
+  "upstream_sha256": "d9d50528ba706c6b8704ebeb1b82232dd78bf382db3617e52fabf7ae17726bd1",
+  "classification": "moduleized_snapshot",
+  "local_change": "converted to a Lean module (module header and public visibility) and a 9-line attribution header comment prepended"
+ }
+}

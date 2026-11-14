@@ -1,0 +1,225 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+
+project:
+  name: "A Variation Norm Carleson Theorem Along the Primes"
+  description: >-
+    A Lean 4 formalization of the two main theorems of Fragkos, Krause,
+    Miheisi and Sun, A Variation Norm Carleson Theorem Along the Primes. For
+    finitely supported f on the integers, consider the modulated sums
+    S_λ f(x) = Σ_{n ≠ 0} f(x − n) Λ(|n|) e(λn)/n, with Λ the von Mangoldt
+    function and e(t) = exp(2πit). Theorem 1.3: for every r > 2 the
+    r-variation of S_λ f(x) over λ in [0, 1) is bounded on ℓ^p(ℤ) for
+    c(r) < p < C(r), where r' < c(r) < 2 < C(r), c(r) → 1 and C(r) → ∞ as
+    r → ∞. Theorem 1.4: the supremum of |S_λ f(x)| over λ in [0, 1) is bounded
+    on ℓ^p(ℤ) for every 1 < p < ∞. The results of other papers that the proofs
+    use are proved in the repository, among them the variation norm Carleson
+    theorem on the real line (Oberlin, Seeger, Tao, Thiele, Wright), the
+    Magyar–Stein–Wainger transference principle for variation norms and the
+    U³ approximation of the von Mangoldt function; none is assumed. The U³
+    approximation is proved here from the classical zero-free region and the
+    absence of Landau–Siegel zeros, a Lean proof vendored from the openai/math
+    library.
+  authors:
+    - "Anastasios Fragkos"
+  responsible_maintainers:
+    - "Anastasios Fragkos"
+  license: "Apache-2.0"
+
+sources:
+  - title: "A Variation Norm Carleson Theorem Along the Primes"
+    authors:
+      - "Anastasios Fragkos"
+      - "Ben Krause"
+      - "Nazar Miheisi"
+      - "Yu-Chen Sun"
+    type: "paper"
+    location: "Theorem 1.3 (t:main) and Theorem 1.4 (t:carmax)"
+    relationship: "formalizes"
+    note: >-
+      The manuscript, included as sources/Variational_Carleson.tex
+      (SHA-256 2931b7112d5a3ee1ed25e0acc2ec5b316e39472635f650692a1dd891a04877ef).
+      Line numbers in Challenge.lean and semantic-audit.md refer to this file.
+    author_endorsement: "participated"
+  - title: "A variation norm Carleson theorem"
+    authors:
+      - "Richard Oberlin"
+      - "Andreas Seeger"
+      - "Terence Tao"
+      - "Christoph Thiele"
+      - "James Wright"
+    id: "https://arxiv.org/abs/0910.1555v2"
+    type: "paper"
+    location: "Theorem 1.2"
+    relationship: "formalizes"
+    note: >-
+      Cited by the main paper as an input and proved here, for Schwartz
+      functions and p > r', as PrimeCarleson.variation_norm_carleson_real.
+      The extension to all of L^p and the restricted weak-type endpoint are
+      not formalized.
+    author_endorsement: "not-contacted"
+  - title: "Discrete analogues in harmonic analysis: spherical averages"
+    authors:
+      - "Akos Magyar"
+      - "Elias M. Stein"
+      - "Stephen Wainger"
+    id: "https://arxiv.org/abs/math/0409365v1"
+    type: "paper"
+    location: "The transference proposition of Section 2"
+    relationship: "adapts"
+    note: >-
+      The transference principle from the real line to the integers, proved
+      here for r-variation norms (one-dimensional, scalar case) as
+      PrimeCarleson.msw_transference_variation.
+    author_endorsement: "not-contacted"
+  - title: "The Wiener Wintner Theorem Along the Primes"
+    authors:
+      - "Jan Fornal"
+      - "Anastasios Fragkos"
+      - "Ben Krause"
+      - "Michael Lacey"
+      - "Hamed Mousavi"
+      - "Yu-Chen Sun"
+    id: "https://arxiv.org/abs/2601.10459v3"
+    type: "paper"
+    location: "Proposition 3.1"
+    relationship: "adapts"
+    note: >-
+      The U³ approximation of the von Mangoldt function by a Heath-Brown model,
+      proved here as PrimeCarleson.vonMangoldt_sub_heathBrown_U3. In place of
+      the printed treatment of a possible exceptional zero, the proof uses the
+      classical zero-free region and the absence of Landau–Siegel zeros.
+    author_endorsement: "participated"
+
+related_formalizations:
+  - id: "https://github.com/openai/math/tree/4eaee87548250b2682affda7d05d947c05554bae"
+    relationship: "builds-on"
+    note: >-
+      Vendored under vendor/openai-math and ported to Lean modules: the
+      quasi-polynomial inverse theorem for the U³ norm
+      (OAI/Combinatorics/Progressions, pruned to the declarations the proofs
+      use) and the absence of Landau–Siegel zeros (OAI/NumberTheory/SiegelZeros,
+      theorem OAI.SiegelZeros.WeightedTorusJets.exists_absolute_real_zero_gap),
+      together with one file, OAI/NumberTheory/DirichletL/LogarithmicControl,
+      from revision adc7f1241b42e322a6451854ab7e4b4c146bf78a. Upstream revisions,
+      licences and every change are recorded in vendor/provenance/.
+  - id: "https://github.com/fpvandoorn/carleson/tree/52cba54d4b7b444e937c7abbc67835afa2a0bb16"
+    relationship: "builds-on"
+    note: >-
+      Vendored slice under vendor/carleson (real interpolation, the
+      Hardy–Littlewood maximal theorem and Lorentz-space tools), ported from
+      Lean v4.36.0-rc1 to this toolchain. Upstream declarations that contain
+      sorry are commented out in the port and unused. Provenance in
+      vendor/provenance/.
+
+classification:
+  arxiv: ["math.CA", "math.NT"]
+  msc2020: ["42B20", "42B25", "11L20"]
+
+status:
+  scope: >-
+    Comparator is configured for exactly the two main theorems, Theorem 1.3
+    and Theorem 1.4, stated in Challenge.lean with the definitions they use
+    (Mathlib imports only) and proved in Solution.lean by the development's
+    theorems of the same statements. The two sorry placeholders of
+    Challenge.lean are the Comparator holes; no other Lean file of the
+    repository, vendored libraries included, contains sorry or a custom axiom
+    outside comments. The repository also proves the results of other papers
+    listed in sources, Proposition 6.1 of the paper and the counterexample of
+    its Appendix A.1.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: ["propext", "Classical.choice", "Quot.sound"]
+  main_results:
+    - declaration: "PrimeCarleson.Palomar.variation_norm_prime_carleson"
+      file: "Solution.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "comparator.json"
+    - declaration: "PrimeCarleson.Palomar.prime_carleson_maximal"
+      file: "Solution.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "comparator.json"
+
+automation:
+  methods:
+    - method: "agent"
+      models: ["claude-opus-5-5", "claude-sonnet-5-5"]
+      framework: "Claude Code"
+      tool_setup: >-
+        A coordinating agent (Claude Opus) assigned bounded proof tasks to
+        other agents (Claude Sonnet) and had every frozen statement, proof
+        assembly and dependency-graph slice checked by an independent reviewing
+        agent. Exact Lean statements of the main results and of the definitions
+        they use were approved by the author and frozen before any proof work;
+        proofs could only fill in their bodies. The workflow follows the agent
+        skills of LeanAutoformalizationSkills by Scott Armstrong
+        (https://github.com/scottnarmstrong/LeanAutoformalizationSkills, CC BY
+        4.0, revision 1837b95).
+      cost:
+        hardware: "a MacBook Pro (M4, 24 GB)"
+    - method: "manual"
+      framework: "Lean 4"
+      tool_setup: >-
+        The author chose the scope, approved every frozen Lean statement and
+        definition in its exact form before any proof used it, decided the
+        questions of interpretation and the proof routes, and maintains the
+        repository.
+  notes: >-
+    The vendored openai/math and Carleson code was written outside this
+    project (see related_formalizations); here it was ported to Lean modules
+    and, for the Progressions part, pruned to the declarations the proofs use.
+    Automation disclosures describe the development process; they do not
+    identify AI systems as authors or maintainers. Agent-written proofs count
+    only as checked by Lean.
+
+fidelity:
+  divergences: >-
+    The compared statements follow the paper with these explicit conventions:
+    inputs are finitely supported, as the paper assumes (footnote at line 288),
+    so the input type is ℤ →₀ ℂ and the extension to all of ℓ^p by density is
+    not formalized; norms are eLpNorm for the counting measure and, with the
+    r-variation and the maximal function, take values in [0, ∞]; the
+    r-variation is the supremum over finite strictly increasing sequences of
+    frequencies in [0, 1), and the maximal function the supremum over
+    λ ∈ [0, 1); the sums run over n ≠ 0 with weight Λ(|n|); the constants c(r)
+    and C(r) of Theorem 1.3 are existentially quantified functions of r with
+    the stated bounds and limits, and the ℓ^p constant is a positive real
+    number depending on r and p. The proofs of both theorems use the absence of
+    Landau–Siegel zeros through the U³ approximation, which the printed proof
+    does not need. Details are in semantic-audit.md.
+
+review:
+  status: "self-assessed"
+  reviewers: []
+  notes: >-
+    Each frozen statement and definition was compared with the paper by an
+    independent reviewing agent and approved by the author, a coauthor of the
+    paper, before any proof used it. Build, policy and Comparator results are
+    recorded only for the exact commits on which they ran; see
+    verification-report.md.
+
+alignment:
+  namespace: "PrimeCarleson.Palomar"
+  statements:
+    - source: "Theorem 1.3 (t:main)"
+      lean: "PrimeCarleson.Palomar.variation_norm_prime_carleson"
+      module: "Solution.lean"
+      status: "proved"
+      note: "The variation-norm prime Carleson theorem; proved by PrimeCarleson.variation_norm_prime_carleson."
+    - source: "Theorem 1.4 (t:carmax)"
+      lean: "PrimeCarleson.Palomar.prime_carleson_maximal"
+      module: "Solution.lean"
+      status: "proved"
+      note: "The maximally modulated prime Carleson theorem; proved by PrimeCarleson.prime_carleson_maximal."
+
+acknowledgements: >-
+  The project uses Lean, Mathlib, the openai/math library, the Carleson
+  formalization project of Floris van Doorn and collaborators, Comparator and
+  NanoDa. Its organization and verification workflow come from the agent skills
+  of LeanAutoformalizationSkills by Scott Armstrong,
+  https://github.com/scottnarmstrong/LeanAutoformalizationSkills, licensed under
+  CC BY 4.0 (revision 1837b95b3d5a9fd8d311367603902ad7fe261adf, with three
+  added macOS files in lean-orchestrator). The skills are not redistributed
+  here.

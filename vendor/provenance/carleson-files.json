@@ -1,0 +1,379 @@
+{
+  "source": "https://github.com/fpvandoorn/carleson",
+  "commit": "52cba54d4b7b444e937c7abbc67835afa2a0bb16",
+  "license": "Apache-2.0 (vendor/provenance/third-party-licenses/CARLESON-LICENSE)",
+  "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+  "upstream_toolchain": "leanprover/lean4:v4.36.0-rc1",
+  "upstream_mathlib": "d88814353fcbcc0461c55b2a4585d3f44d903df1",
+  "ported_toolchain": "leanprover/lean4:v4.35.0",
+  "ported_mathlib": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "roots": [
+    "Carleson.ToMathlib.RealInterpolation.Main",
+    "Carleson.ToMathlib.HardyLittlewood",
+    "Carleson.ToMathlib.LorentzType"
+  ],
+  "file_count": 40,
+  "changed_count": 6,
+  "files": [
+    {
+      "module": "Carleson.Defs",
+      "upstream_path": "Carleson/Defs.lean",
+      "vendored_path": "vendor/carleson/Carleson/Defs.lean",
+      "upstream_sha256": "85d484bea4ac10d39573c50b95abc2fa771f39fe507f271aa013a6e27c1d1732",
+      "vendored_sha256": "85d484bea4ac10d39573c50b95abc2fa771f39fe507f271aa013a6e27c1d1732",
+      "lines": 324,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.Analysis.RCLike.Components",
+      "upstream_path": "Carleson/ToMathlib/Analysis/RCLike/Components.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/Analysis/RCLike/Components.lean",
+      "upstream_sha256": "c6dbafb3fcb7e18dd20c9f4c18d21ed7fbf78e8d85aeee7cc1cc6bec4b8d9703",
+      "vendored_sha256": "c6dbafb3fcb7e18dd20c9f4c18d21ed7fbf78e8d85aeee7cc1cc6bec4b8d9703",
+      "lines": 303,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.Analysis.RCLike.Misc",
+      "upstream_path": "Carleson/ToMathlib/Analysis/RCLike/Misc.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/Analysis/RCLike/Misc.lean",
+      "upstream_sha256": "d427df8ec8b28ba953ef4f9789727ec9eb17af949c55246213e58261e96a1036",
+      "vendored_sha256": "d427df8ec8b28ba953ef4f9789727ec9eb17af949c55246213e58261e96a1036",
+      "lines": 34,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.Analysis.SpecialFunctions.Integrals.Basic",
+      "upstream_path": "Carleson/ToMathlib/Analysis/SpecialFunctions/Integrals/Basic.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/Analysis/SpecialFunctions/Integrals/Basic.lean",
+      "upstream_sha256": "18b3251cc739e2ea774dd6aa4a0d4be540e3b0a4bf5c10b8ef880d17df103c18",
+      "vendored_sha256": "18b3251cc739e2ea774dd6aa4a0d4be540e3b0a4bf5c10b8ef880d17df103c18",
+      "lines": 86,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.BoundedFiniteSupport",
+      "upstream_path": "Carleson/ToMathlib/BoundedFiniteSupport.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/BoundedFiniteSupport.lean",
+      "upstream_sha256": "eeff54447d36ff2a1c63b8529a9f01dde0aeee64cfd83f5b0f96cfb9530ced45",
+      "vendored_sha256": "eeff54447d36ff2a1c63b8529a9f01dde0aeee64cfd83f5b0f96cfb9530ced45",
+      "lines": 101,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.CoveredByBalls",
+      "upstream_path": "Carleson/ToMathlib/CoveredByBalls.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/CoveredByBalls.lean",
+      "upstream_sha256": "41a4f989d792b2942db21f5a03198baf9ff8115bd0d6523cfac59a2da32d3d2b",
+      "vendored_sha256": "41a4f989d792b2942db21f5a03198baf9ff8115bd0d6523cfac59a2da32d3d2b",
+      "lines": 202,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.Data.ENNReal",
+      "upstream_path": "Carleson/ToMathlib/Data/ENNReal.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/Data/ENNReal.lean",
+      "upstream_sha256": "0c11161da0b778c642306c2a762934887e586325839a55038525b8842b7486e0",
+      "vendored_sha256": "0c11161da0b778c642306c2a762934887e586325839a55038525b8842b7486e0",
+      "lines": 161,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.Distribution",
+      "upstream_path": "Carleson/ToMathlib/Distribution.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/Distribution.lean",
+      "upstream_sha256": "b770f235537292f7cb5d3123279be0f1da64bb05d335db3a67e044eb50f3230f",
+      "vendored_sha256": "b770f235537292f7cb5d3123279be0f1da64bb05d335db3a67e044eb50f3230f",
+      "lines": 605,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.ENorm",
+      "upstream_path": "Carleson/ToMathlib/ENorm.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/ENorm.lean",
+      "upstream_sha256": "ae08420040e08329d13b33dcb6da0cbbce373419e69e0d2e1fbc9b200eb70814",
+      "vendored_sha256": "ae08420040e08329d13b33dcb6da0cbbce373419e69e0d2e1fbc9b200eb70814",
+      "lines": 194,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.HardyLittlewood",
+      "upstream_path": "Carleson/ToMathlib/HardyLittlewood.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/HardyLittlewood.lean",
+      "upstream_sha256": "a444a077ee72892334b556c959b7e87c339656022ffc41dc04267ed5d55bd967",
+      "vendored_sha256": "3d6164ca34da8af67e7a4bda51c57cb99f726a765c094e7d611f6da2e7c63248",
+      "lines": 412,
+      "changed": true
+    },
+    {
+      "module": "Carleson.ToMathlib.HasType",
+      "upstream_path": "Carleson/ToMathlib/HasType.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/HasType.lean",
+      "upstream_sha256": "a778ff0c37348099c86d568832055eaf40ada0911fed058dee680a7217b38208",
+      "vendored_sha256": "a778ff0c37348099c86d568832055eaf40ada0911fed058dee680a7217b38208",
+      "lines": 333,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.LorentzType",
+      "upstream_path": "Carleson/ToMathlib/LorentzType.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/LorentzType.lean",
+      "upstream_sha256": "059d64bfb73ed3e5be4b2635d60b437ec0646a8a423d0b5d25bc62e5389c52ba",
+      "vendored_sha256": "3ce55045b86cd5119a00b75a423121261d3f03c53950e62dfd1e42dffdaf99d8",
+      "lines": 594,
+      "changed": true
+    },
+    {
+      "module": "Carleson.ToMathlib.MeasureTheory.Function.AEEqFun",
+      "upstream_path": "Carleson/ToMathlib/MeasureTheory/Function/AEEqFun.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/MeasureTheory/Function/AEEqFun.lean",
+      "upstream_sha256": "fea6f0e91200816acdbb220d6a38c9450371caee6742f54fd96cd4c869239d54",
+      "vendored_sha256": "fea6f0e91200816acdbb220d6a38c9450371caee6742f54fd96cd4c869239d54",
+      "lines": 22,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.MeasureTheory.Function.LorentzSeminorm.Basic",
+      "upstream_path": "Carleson/ToMathlib/MeasureTheory/Function/LorentzSeminorm/Basic.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/MeasureTheory/Function/LorentzSeminorm/Basic.lean",
+      "upstream_sha256": "5c464277347a7992aa4c7403714f315fa513af7ed44faedd0d4a132e78a8c292",
+      "vendored_sha256": "5c464277347a7992aa4c7403714f315fa513af7ed44faedd0d4a132e78a8c292",
+      "lines": 634,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.MeasureTheory.Function.LorentzSeminorm.Defs",
+      "upstream_path": "Carleson/ToMathlib/MeasureTheory/Function/LorentzSeminorm/Defs.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/MeasureTheory/Function/LorentzSeminorm/Defs.lean",
+      "upstream_sha256": "6ff2d413413482405516507e413e4dc202e02caa73b1fc25d42631e691ecd5cb",
+      "vendored_sha256": "6ff2d413413482405516507e413e4dc202e02caa73b1fc25d42631e691ecd5cb",
+      "lines": 265,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.MeasureTheory.Function.LorentzSeminorm.TriangleInequality",
+      "upstream_path": "Carleson/ToMathlib/MeasureTheory/Function/LorentzSeminorm/TriangleInequality.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/MeasureTheory/Function/LorentzSeminorm/TriangleInequality.lean",
+      "upstream_sha256": "915ca0a985e93011cf0c775d8b503a800e59085fc61cf24fe79397dd42655fd3",
+      "vendored_sha256": "915ca0a985e93011cf0c775d8b503a800e59085fc61cf24fe79397dd42655fd3",
+      "lines": 375,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.MeasureTheory.Function.LpNorm.Misc",
+      "upstream_path": "Carleson/ToMathlib/MeasureTheory/Function/LpNorm/Misc.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/MeasureTheory/Function/LpNorm/Misc.lean",
+      "upstream_sha256": "4033da7ba67fe57d0e4444f48d253c1c7450433d1e3f2a4744a6eef415086309",
+      "vendored_sha256": "4033da7ba67fe57d0e4444f48d253c1c7450433d1e3f2a4744a6eef415086309",
+      "lines": 53,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.MeasureTheory.Function.LpSeminorm.Basic",
+      "upstream_path": "Carleson/ToMathlib/MeasureTheory/Function/LpSeminorm/Basic.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/MeasureTheory/Function/LpSeminorm/Basic.lean",
+      "upstream_sha256": "e768e8a08538d23adf150bd4d6f271916a2e9d57245af116f65f42c865f03836",
+      "vendored_sha256": "e768e8a08538d23adf150bd4d6f271916a2e9d57245af116f65f42c865f03836",
+      "lines": 158,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.MeasureTheory.Function.LpSeminorm.TriangleInequality",
+      "upstream_path": "Carleson/ToMathlib/MeasureTheory/Function/LpSeminorm/TriangleInequality.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/MeasureTheory/Function/LpSeminorm/TriangleInequality.lean",
+      "upstream_sha256": "f9f9fad87331d4058ff1866b1b3adcac116450ce27e5a356bf96f067e43bf24b",
+      "vendored_sha256": "f9f9fad87331d4058ff1866b1b3adcac116450ce27e5a356bf96f067e43bf24b",
+      "lines": 36,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.MeasureTheory.Function.SimpleFunc",
+      "upstream_path": "Carleson/ToMathlib/MeasureTheory/Function/SimpleFunc.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/MeasureTheory/Function/SimpleFunc.lean",
+      "upstream_sha256": "c537e5e8c2930941ba917be3d82548ee5074722e8b2aa0702e84175454230841",
+      "vendored_sha256": "7251963fd2482210260580cb6da285c4e27b308f734bdcf3e8f3d1973159f7bd",
+      "lines": 580,
+      "changed": true
+    },
+    {
+      "module": "Carleson.ToMathlib.MeasureTheory.Integral.Layercake",
+      "upstream_path": "Carleson/ToMathlib/MeasureTheory/Integral/Layercake.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/MeasureTheory/Integral/Layercake.lean",
+      "upstream_sha256": "a52c180c44db0c461ecf85e63b4700b346a9c76359863b899557e45853841402",
+      "vendored_sha256": "a8c7ad3a0ca847d27fd0dbfeb17adc45daa111d0baeac93161fca014c7eb5fa0",
+      "lines": 673,
+      "changed": true
+    },
+    {
+      "module": "Carleson.ToMathlib.MeasureTheory.Integral.Lebesgue",
+      "upstream_path": "Carleson/ToMathlib/MeasureTheory/Integral/Lebesgue.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/MeasureTheory/Integral/Lebesgue.lean",
+      "upstream_sha256": "d667a1678eda9bb4ae040ffa9cd92af50a5d189f3bdf2c10a42dc34428b544e3",
+      "vendored_sha256": "d667a1678eda9bb4ae040ffa9cd92af50a5d189f3bdf2c10a42dc34428b544e3",
+      "lines": 94,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.MeasureTheory.Integral.Misc",
+      "upstream_path": "Carleson/ToMathlib/MeasureTheory/Integral/Misc.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/MeasureTheory/Integral/Misc.lean",
+      "upstream_sha256": "8e219f8a0d2e3f2c6f5d5a977623a898fba58127de8fc18f1de01297fc5633aa",
+      "vendored_sha256": "3c42ad6623bd1b639790d00f7b8a1c47792bba3d0373ad4d0bdcc230e2b305f5",
+      "lines": 105,
+      "changed": true
+    },
+    {
+      "module": "Carleson.ToMathlib.MeasureTheory.Measure.AEMeasurable",
+      "upstream_path": "Carleson/ToMathlib/MeasureTheory/Measure/AEMeasurable.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/MeasureTheory/Measure/AEMeasurable.lean",
+      "upstream_sha256": "e69e88bfc0919df735faa2dfbd4a2e49e19d1eaf75169a9ac1af90d59f7b0d7c",
+      "vendored_sha256": "e69e88bfc0919df735faa2dfbd4a2e49e19d1eaf75169a9ac1af90d59f7b0d7c",
+      "lines": 72,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.MeasureTheory.Measure.IsDoubling",
+      "upstream_path": "Carleson/ToMathlib/MeasureTheory/Measure/IsDoubling.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/MeasureTheory/Measure/IsDoubling.lean",
+      "upstream_sha256": "5d278407f68b18714857ff0eae24c8a77b4c48b2d68e131e3e52416aa4020b1a",
+      "vendored_sha256": "5d278407f68b18714857ff0eae24c8a77b4c48b2d68e131e3e52416aa4020b1a",
+      "lines": 425,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.MeasureTheory.Measure.NNReal",
+      "upstream_path": "Carleson/ToMathlib/MeasureTheory/Measure/NNReal.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/MeasureTheory/Measure/NNReal.lean",
+      "upstream_sha256": "cf23535e4074b93424ee0616d7013ee1a6840517487f4fea7bd47b570b3947ae",
+      "vendored_sha256": "cf23535e4074b93424ee0616d7013ee1a6840517487f4fea7bd47b570b3947ae",
+      "lines": 686,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.MeasureTheory.Measure.NoAtoms.Basics",
+      "upstream_path": "Carleson/ToMathlib/MeasureTheory/Measure/NoAtoms/Basics.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/MeasureTheory/Measure/NoAtoms/Basics.lean",
+      "upstream_sha256": "4beb1e510eeb66043c3c18cc4435383769159009d1a27c76a94fc4bfe18c3046",
+      "vendored_sha256": "4beb1e510eeb66043c3c18cc4435383769159009d1a27c76a94fc4bfe18c3046",
+      "lines": 672,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.MeasureTheory.Measure.NoAtoms.Defs",
+      "upstream_path": "Carleson/ToMathlib/MeasureTheory/Measure/NoAtoms/Defs.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/MeasureTheory/Measure/NoAtoms/Defs.lean",
+      "upstream_sha256": "427504b824d205605a39f0c03361b2eb161ebeee91ca350b22e56fd83cd052c3",
+      "vendored_sha256": "427504b824d205605a39f0c03361b2eb161ebeee91ca350b22e56fd83cd052c3",
+      "lines": 191,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.MeasureTheory.Measure.NoAtoms.Haar",
+      "upstream_path": "Carleson/ToMathlib/MeasureTheory/Measure/NoAtoms/Haar.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/MeasureTheory/Measure/NoAtoms/Haar.lean",
+      "upstream_sha256": "d030bf7b71f2c04c8902bf16817924a51920aa8f5e73d182628a379bbe22b586",
+      "vendored_sha256": "d030bf7b71f2c04c8902bf16817924a51920aa8f5e73d182628a379bbe22b586",
+      "lines": 54,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.MeasureTheory.Measure.NoAtoms.Prod",
+      "upstream_path": "Carleson/ToMathlib/MeasureTheory/Measure/NoAtoms/Prod.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/MeasureTheory/Measure/NoAtoms/Prod.lean",
+      "upstream_sha256": "05b4a77bb0ac1004f64f97ef04074d4a220080e4cda81dd7eaf29e0216f311ca",
+      "vendored_sha256": "05b4a77bb0ac1004f64f97ef04074d4a220080e4cda81dd7eaf29e0216f311ca",
+      "lines": 319,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.MeasureTheory.Measure.NoAtoms.Regular",
+      "upstream_path": "Carleson/ToMathlib/MeasureTheory/Measure/NoAtoms/Regular.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/MeasureTheory/Measure/NoAtoms/Regular.lean",
+      "upstream_sha256": "90b498fd5ab4634e7c46a37b590ab8ab5a67b149697e652be66cc323c52eece1",
+      "vendored_sha256": "90b498fd5ab4634e7c46a37b590ab8ab5a67b149697e652be66cc323c52eece1",
+      "lines": 96,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.Misc",
+      "upstream_path": "Carleson/ToMathlib/Misc.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/Misc.lean",
+      "upstream_sha256": "8082c8393cf9e7642e02af225bc9f8401716f9050c63437f7abcede154dae4f7",
+      "vendored_sha256": "8082c8393cf9e7642e02af225bc9f8401716f9050c63437f7abcede154dae4f7",
+      "lines": 812,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.Order.ConditionallyCompleteLattice.Basic",
+      "upstream_path": "Carleson/ToMathlib/Order/ConditionallyCompleteLattice/Basic.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/Order/ConditionallyCompleteLattice/Basic.lean",
+      "upstream_sha256": "fe9865612967b7e708ac080af7659f0c5cccea3a2c5343d1a7e8943e397d5bfe",
+      "vendored_sha256": "fe9865612967b7e708ac080af7659f0c5cccea3a2c5343d1a7e8943e397d5bfe",
+      "lines": 65,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.RealInterpolation.InterpolatedExponents",
+      "upstream_path": "Carleson/ToMathlib/RealInterpolation/InterpolatedExponents.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/RealInterpolation/InterpolatedExponents.lean",
+      "upstream_sha256": "1440309afb692464fe8bd4532a0258612f364c9e57d8f198962a05351d209781",
+      "vendored_sha256": "1440309afb692464fe8bd4532a0258612f364c9e57d8f198962a05351d209781",
+      "lines": 1097,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.RealInterpolation.Main",
+      "upstream_path": "Carleson/ToMathlib/RealInterpolation/Main.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/RealInterpolation/Main.lean",
+      "upstream_sha256": "5d8109c8e60bc2e1199f561c3cb5e77715b87180e3e1bc5d1e2f83417f860850",
+      "vendored_sha256": "5d8109c8e60bc2e1199f561c3cb5e77715b87180e3e1bc5d1e2f83417f860850",
+      "lines": 1455,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.RealInterpolation.Minkowski",
+      "upstream_path": "Carleson/ToMathlib/RealInterpolation/Minkowski.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/RealInterpolation/Minkowski.lean",
+      "upstream_sha256": "81f6ba01c7a18e59f653191230f6177febc528e6f9cd21ba3775e056b08b1940",
+      "vendored_sha256": "81f6ba01c7a18e59f653191230f6177febc528e6f9cd21ba3775e056b08b1940",
+      "lines": 1054,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.RealInterpolation.Misc",
+      "upstream_path": "Carleson/ToMathlib/RealInterpolation/Misc.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/RealInterpolation/Misc.lean",
+      "upstream_sha256": "09eed13c7bc8098c9f2e29832f61e1e74ca3e201d8659109491e5a42ddd9f379",
+      "vendored_sha256": "09eed13c7bc8098c9f2e29832f61e1e74ca3e201d8659109491e5a42ddd9f379",
+      "lines": 1223,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.Rearrangement",
+      "upstream_path": "Carleson/ToMathlib/Rearrangement.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/Rearrangement.lean",
+      "upstream_sha256": "40f7db4202407c5a62a0da9751af3cd0c85a64dc403b2d385d30301aa7b001de",
+      "vendored_sha256": "d3717261c1192fc6b73eb6d429c39710a1822b568cc4e673964203c10d6c7517",
+      "lines": 1210,
+      "changed": true
+    },
+    {
+      "module": "Carleson.ToMathlib.Topology.ContinuousOn",
+      "upstream_path": "Carleson/ToMathlib/Topology/ContinuousOn.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/Topology/ContinuousOn.lean",
+      "upstream_sha256": "4cb4c7f82f2831a16b5354f6d7348168cc72315411684a4b1a3a8c0d772eda4f",
+      "vendored_sha256": "4cb4c7f82f2831a16b5354f6d7348168cc72315411684a4b1a3a8c0d772eda4f",
+      "lines": 74,
+      "changed": false
+    },
+    {
+      "module": "Carleson.ToMathlib.WNorm",
+      "upstream_path": "Carleson/ToMathlib/WNorm.lean",
+      "vendored_path": "vendor/carleson/Carleson/ToMathlib/WNorm.lean",
+      "upstream_sha256": "4fbbe1d2307a93df2150614535727e5917052fd261e2257eeca1f4d1899ac88e",
+      "vendored_sha256": "4fbbe1d2307a93df2150614535727e5917052fd261e2257eeca1f4d1899ac88e",
+      "lines": 287,
+      "changed": false
+    }
+  ]
+}

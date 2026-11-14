@@ -1,0 +1,1870 @@
+{
+ "source": "https://github.com/openai/math",
+ "commit": "4eaee87548250b2682affda7d05d947c05554bae",
+ "upstream_lean": "v4.34.1",
+ "port_lean": "v4.35.0",
+ "port_mathlib": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+ "closure_root": "OAI/NumberTheory/SiegelZeros/Conclusions/Theorem.lean",
+ "files": [
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Characters.Biquadratic",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Characters/Biquadratic.lean",
+   "upstream_sha256": "6276c20b4b13c88a4b4e14c4b2dfe5c51f03b843cdb1eadd43c8d74d88981d30",
+   "vendored_sha256": "d27d7ac0d1b1183064a98faf5b8b8886fab660b14c945756e109075eeb38cecb",
+   "lines": 113,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Characters.ExceptionalConductor",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Characters/ExceptionalConductor.lean",
+   "upstream_sha256": "aa1a0f92f10dfdf455ab6ac7552888d24ba615ff2bdef49069c5748668aa0189",
+   "vendored_sha256": "fc5aab3b1eaf328480c581bf2246fdbbc33a004c384837629ec5f2900c1dbec5",
+   "lines": 138,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Characters.MangoldtMass",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Characters/MangoldtMass.lean",
+   "upstream_sha256": "392a5a26ce5877a73d9a9ff273302db51d131776cfb47b14cb086d15521ba9f6",
+   "vendored_sha256": "b2e31658291f4aacba91c48268bcee06b79ee1e9f1229eb90458a73b6a7a44c7",
+   "lines": 70,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Characters.PrimePowerTail",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Characters/PrimePowerTail.lean",
+   "upstream_sha256": "490a00d47c6096028ddd3c4ff199f6ad56da887f9ff58ac567ddb87a519b8e0a",
+   "vendored_sha256": "16bf54a74ca5ce418f8d0953806fa6767b62dc3bf8ddbe11f2fad4e3d7584839",
+   "lines": 74,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Characters.PrimeTerms",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Characters/PrimeTerms.lean",
+   "upstream_sha256": "e1920585539c99e3dbf741d9485449785f93818e354318ecd5d4801ad552fa60",
+   "vendored_sha256": "aa7ff020b33ec3503fe9c11c16fc8660af5f3c4c73f1cff672a2b6ea03daeefb",
+   "lines": 88,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Determinants.DeterminantBridge",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Determinants/DeterminantBridge.lean",
+   "upstream_sha256": "960327acb0e7daff41496bc0ed2b9ca703f3e96617d27c03c303c20458c244cc",
+   "vendored_sha256": "36c042dbdd597c7bb68dcb568ea5ab5c28ae1f3d845bac489587df36a0aa1ce7",
+   "lines": 85,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Determinants.NormalDirectionSelection",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Determinants/NormalDirectionSelection.lean",
+   "upstream_sha256": "3a7bbf0fc7c78b5323829a5434a1c38f465c9ef71d514719d5f98bb998fd165b",
+   "vendored_sha256": "bca7dae5bb13134e9ce4aa82a7325571061f894c6c1d72490611c561ff4c3d7b",
+   "lines": 175,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Differentials.ConormalNonvanishing",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Differentials/ConormalNonvanishing.lean",
+   "upstream_sha256": "ab32c265c1fd122947eef194788764630f325d0e99d467a87a354bc690459b06",
+   "vendored_sha256": "d9a700c007015a38136c916fb8d6712a0f51e0493053a997c6cb06c41533f7b1",
+   "lines": 68,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Differentials.ConormalPairing",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Differentials/ConormalPairing.lean",
+   "upstream_sha256": "e02bbf1e5da005ac795bb0753700d9cfcc14043a002de590cf56a701052a59b0",
+   "vendored_sha256": "28f0138cd5bec1d909dc9a1f9e6d29f98ecaaced5f675556408d1b4b10714d8e",
+   "lines": 66,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Differentials.InvariantDerivation",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Differentials/InvariantDerivation.lean",
+   "upstream_sha256": "f802852947712ac6e71f2a53c6efa9a28f7d25a8a8b3062223cfcaf997ff1a9d",
+   "vendored_sha256": "a483bb99dd597dbe82ebb2fc7554ab073ffb25d308aaa8dddf2806beb74e5f87",
+   "lines": 96,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Differentials.LogDerivative",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Differentials/LogDerivative.lean",
+   "upstream_sha256": "8aade3307a1cdcb63d056c651e25eed0f203b44780ee57e24f6ed018f3ec0fa8",
+   "vendored_sha256": "cedb8fbbcb94234d05c6e5fe2de51d70c9cbd82b2e95bc4ee4ed3da998faad99",
+   "lines": 74,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Differentials.SmoothConormalExtension",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Differentials/SmoothConormalExtension.lean",
+   "upstream_sha256": "ea4dd1cb21fd854c4d2ecb683ce629235e5240bdd0a2f4717fd3e09fc6c5f2e5",
+   "vendored_sha256": "16191c44eed516da504009c965f6d3c3c11bf0eb9c053dd3b2141c2acb4756be",
+   "lines": 61,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Differentials.ZetaLogDerivative",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Differentials/ZetaLogDerivative.lean",
+   "upstream_sha256": "5246fa8710c3026312a3a2c76d545fcfad9f3d0680c6331e3f0d2c3f1f171b44",
+   "vendored_sha256": "82e24141aaa69992298f19dc112abd3c78fa7464c7c4268c544545bbc7f4ed49",
+   "lines": 121,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.EntireFunctions.AnalyticBridge",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/EntireFunctions/AnalyticBridge.lean",
+   "upstream_sha256": "b9fbef53c5fc5d59f1cf54f7ba34a69a761ca5bd5e5b5c18d0971c0892040388",
+   "vendored_sha256": "f9d5bf597c2eb28500bfc25578f24badd819edf6f2dca236177356ce17ae3656",
+   "lines": 65,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.EntireFunctions.EntireLogarithm",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/EntireFunctions/EntireLogarithm.lean",
+   "upstream_sha256": "38395528f2d446fa36300431ed3faa4ce2e09a03694429de54ca5546990c6a8b",
+   "vendored_sha256": "07fc36c3eefdf0442bfb8cd38eb63a7723793c37f10f3b88f31686d2519aaa31",
+   "lines": 53,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.EntireFunctions.GammaBound",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/EntireFunctions/GammaBound.lean",
+   "upstream_sha256": "f86d9c2e9b09194d6ee7fcdbc8b0fca5792c8c1e3b3d41845441e6df41a6c27a",
+   "vendored_sha256": "3bfc29ec75893273c731dbcdd230dcd1c73531c4b3052e210ad01baa2708463c",
+   "lines": 78,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.EntireFunctions.Hadamard",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/EntireFunctions/Hadamard.lean",
+   "upstream_sha256": "b813bf555873251bac47e98d75a5a58025377269aa9dda40ba6fd095f79b9db2",
+   "vendored_sha256": "4d7067b443a8be605cdc258af0343478c44ab24e10fb5a67b0d2abc8d86d4cb1",
+   "lines": 110,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.EntireFunctions.IndexedProduct",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/EntireFunctions/IndexedProduct.lean",
+   "upstream_sha256": "8861f1679bffad3ee4a0f6b316b5e162214575d8f0c8cb9b2c4d1a5dc9f3be74",
+   "vendored_sha256": "555eea66583a90da7e32db1e85393035f7b461a36f6eb4a582ecba99088261d1",
+   "lines": 307,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.EntireFunctions.PolynomialGrowthRanks",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/EntireFunctions/PolynomialGrowthRanks.lean",
+   "upstream_sha256": "e1529e1464db2119274a11d0d3a728b19d7b66beae261715caa7ef4b9aa321e7",
+   "vendored_sha256": "cf97ba78c545f12af1cb1d6e7ded9f355d4f35fd150cdd25f3ef15e73a42414e",
+   "lines": 125,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.EntireFunctions.RegularSequenceHomZero",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/EntireFunctions/RegularSequenceHomZero.lean",
+   "upstream_sha256": "93ac9b40fab415bc0ad7db7f39a4cf82082b3d5f14396e22c7cbdda59c8a62ae",
+   "vendored_sha256": "386d8bc7b3c801b79c68069fb7716a047404a541e0b86ac5564569fd650d78b7",
+   "lines": 56,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.EntireFunctions.ZeroShellBounds",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/EntireFunctions/ZeroShellBounds.lean",
+   "upstream_sha256": "0058e7df09195e94d4013b9b0a4a5737d6004757e7ff9d6e9e0b45888e0df879",
+   "vendored_sha256": "3db65263e1b36e958eabc83eb685866deff64538fe7de6a29af43338347a29a7",
+   "lines": 367,
+   "edited": true,
+   "fix_categories": "module visibility"
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Estimates.ContrarySequence",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Estimates/ContrarySequence.lean",
+   "upstream_sha256": "db1ecf1ccce8e8ba208ea9dafd44314927adfda0d2d3a4c9ca10b24724dc09d9",
+   "vendored_sha256": "5e31b5e568358654645aa01b2408438d05122ce69943890285d8dd1be7b28cbe",
+   "lines": 60,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Estimates.FloorExponents",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Estimates/FloorExponents.lean",
+   "upstream_sha256": "6c0dd22d9fd82afd25a5c027bd4df3f166141cea79a2eed3fa8c1dbbafd9dd2c",
+   "vendored_sha256": "851ab85d479001b179fd09f1853878e9cecf8af1a623d2874754d6dbc2ccafa0",
+   "lines": 92,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Estimates.GlobalConstants",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Estimates/GlobalConstants.lean",
+   "upstream_sha256": "76ce4748426022b7aad5d6551559123da9217b9b0b510985dccee15ae0289748",
+   "vendored_sha256": "7511c986550c35ebf7ffda8af2585a2c9e7f571c6373d62af237f4509315f3cd",
+   "lines": 62,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Estimates.PrimeBounds",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Estimates/PrimeBounds.lean",
+   "upstream_sha256": "6c14d2f5f2a1f89345c4edb42141b4fb76b153f3b65130c2e3565ea5e07c4eaf",
+   "vendored_sha256": "40b3cf014cee86236cb151d2627db957bee0b87e99df3a75fca807b103015ca1",
+   "lines": 74,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Estimates.RectangleNumerics",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Estimates/RectangleNumerics.lean",
+   "upstream_sha256": "d99a9f0902894526899cd9392a420f85ad608fa8489cca0847e62dc567ce649a",
+   "vendored_sha256": "2d829b946de3fa3d106536bef11abcfefd4033454db185a3bb4992c46c5c3e8f",
+   "lines": 165,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Hilbert.HomogeneousSections",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Hilbert/HomogeneousSections.lean",
+   "upstream_sha256": "70dee45e70a9d43c2d381e56c01eb36f3bf2b69fb365ef43a0c40d1536c4f373",
+   "vendored_sha256": "a5df57fd966881b21b327a12087937f2346e22fcaae94c46bcedf23cc33d9ef3",
+   "lines": 86,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Hilbert.PrimeHilbertDimension",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Hilbert/PrimeHilbertDimension.lean",
+   "upstream_sha256": "169a6fa0b357316fecd2b324a2dda46d087b85c6a71b99b477144b3dded7d609",
+   "vendored_sha256": "ecc9c30a502bf5774aa487202e0c29bf5208b55e3065024818472244c973c1fd",
+   "lines": 114,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Intersection.NormalIntersection",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Intersection/NormalIntersection.lean",
+   "upstream_sha256": "eaae3a727cafeb2bc9a3f205e4a217c57bd9d4b528ae460c7f501b3c5e68a98b",
+   "vendored_sha256": "aa11bb9238cdcd7a21f2da52ff0d0d4c9a1d80a975f25a3744655326c6092b81",
+   "lines": 137,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.BoxPolynomials",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/BoxPolynomials.lean",
+   "upstream_sha256": "1ddf9544b112414526e8aa7f6ab6b69a5aa7eaee6ab9294e7b426f2adba07093",
+   "vendored_sha256": "2bdff2aee0697d34c89cdb943f872a4c5ddde98f556b72884dc3a5b602aab88b",
+   "lines": 95,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.CoefficientLocalizationMaximal",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/CoefficientLocalizationMaximal.lean",
+   "upstream_sha256": "235e1e47611cc65bd7798bc6b648ce8f36475b8f14ad3a197696e8d85194bf91",
+   "vendored_sha256": "2f4ec3d2527b1162784cf78f4b4c7a0e4f99ca26a66e75688308609e55499e90",
+   "lines": 283,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.ConePrimeLocalization",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/ConePrimeLocalization.lean",
+   "upstream_sha256": "c2b7ea87690ee183a69ad961191ddd01d6e865aaeaab7bdc119f709eb9ec3aac",
+   "vendored_sha256": "3f7282ec4f327030d58281e2928476c0cfe603e0c12fa6affb742c44f15a802c",
+   "lines": 685,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.ConeQuotientAugmentation",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/ConeQuotientAugmentation.lean",
+   "upstream_sha256": "2d182f98415145cfcadbfb46267d1c255a418e7dab018f71084496829653749f",
+   "vendored_sha256": "a06317802cecee44e83d2776a25fa4ac4d1a2c2191eee74b231084372f44d264",
+   "lines": 193,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.DVRLocalCoordinates",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/DVRLocalCoordinates.lean",
+   "upstream_sha256": "4359785ff1b683b65bb2f046ce8e59e126b47a2807f219ea6097213166f0a0b8",
+   "vendored_sha256": "4f1e2a03511ff844d004b59d7028e24cf51fdb951a23d8f0bc168c32c437d2da",
+   "lines": 219,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.LocalGap",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/LocalGap.lean",
+   "upstream_sha256": "c9afe6ca4f5f9f4ab86e9d109b4d6a46bafdc47751c04e2f28dfdfdc22a1741d",
+   "vendored_sha256": "0eb424d8e20bd17434928855a76caf578b6e6f6d0641d2b01a4485b0c719004b",
+   "lines": 54,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.LocalLength",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/LocalLength.lean",
+   "upstream_sha256": "740d1f5387c42855b0c028974fac54499bd35b9b21219bd980b17cffc50f82a2",
+   "vendored_sha256": "0fa03c07fbc73e0a26969616c1212845277f99ac7369245da10aefcf3ed7abde",
+   "lines": 54,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.LocalizedRadical",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/LocalizedRadical.lean",
+   "upstream_sha256": "f0559c6209770eb71f29a084ccf50cd9a405471b8673deb8b28b59a2f700e713",
+   "vendored_sha256": "419f1c403082483d60159e3e479da70b4731d7506961dd60e3d851add9196fd9",
+   "lines": 73,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.ParameterChoices",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/ParameterChoices.lean",
+   "upstream_sha256": "d920efcb4566f73d9f6d7ce5226d9c52e6b23f2837e6a1a52fc828fbee2864dd",
+   "vendored_sha256": "0e22586ee94871f66277a460ae570cc4f5074974e459811ac37e26189e2259ef",
+   "lines": 85,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.ParameterCombinations",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/ParameterCombinations.lean",
+   "upstream_sha256": "65eaa8a5af6035ca98914ad9a60d56d555d08299049e10fb56bdc88c8e57bee8",
+   "vendored_sha256": "fd90ee56c8a4e597f97748f2ae98c6b00fc2154e8f5e4bca689459fc77086a94",
+   "lines": 63,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.ParameterKilledFiniteLength",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/ParameterKilledFiniteLength.lean",
+   "upstream_sha256": "292ec6a829146d16ba00ffe826ed9a7859b1eeb5e2defde0d93ebb503bbecbea",
+   "vendored_sha256": "6e206cd82b4d5b34c25ac3a716716ebafa1eb9de50f711b3ea09507aeea578d2",
+   "lines": 97,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.PolynomialCoefficientLocalization",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/PolynomialCoefficientLocalization.lean",
+   "upstream_sha256": "84d4c55a613985bfdeb4fe14c8e7df87d7ab0a903fb75bc9cb528eeb4b2ffbce",
+   "vendored_sha256": "5c94ca10860167cf6918fd570eae2ee07d35cd2bbd70b8dc5f1c0fba852b7d8f",
+   "lines": 139,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.PolynomialCumulative",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/PolynomialCumulative.lean",
+   "upstream_sha256": "646874c799bf9b6a3cbdf3b1135d6caba6a7b94c3f0185b6f93bb9af01de9ab5",
+   "vendored_sha256": "0696ac9bd39b41f73f9ce574c2e2b2b1ad4f423eddb4c218ca148dbc0cccef8f",
+   "lines": 118,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.QuotientPrimeResidueBasis",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/QuotientPrimeResidueBasis.lean",
+   "upstream_sha256": "10837992a86e7962b04c30dea78356d665284568825f5dc7dfdd617d3d8055cf",
+   "vendored_sha256": "fa5b2a883571f544ffd0905363087bc69f1144273a80f75155e0b0c20a08c420",
+   "lines": 94,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.ResidueField",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/ResidueField.lean",
+   "upstream_sha256": "b366346cbbab0201099461e09bb39347b90cc6c90f10f5a1e1318d52927a59fc",
+   "vendored_sha256": "f19343db57a0c6a42f4187f7b17caa3f269b99ea2556580b2bc6945e318243b6",
+   "lines": 70,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.ResidueIndependence",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/ResidueIndependence.lean",
+   "upstream_sha256": "d7e7b569fbfb7759ee8da79321a698557f3cef4287b51a57ba9bf08af026d95d",
+   "vendored_sha256": "d749c66aef1bcdfa777c5d47b1b044c540cef004ea9c9d696e722ee84a3a6ded",
+   "lines": 72,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.RingLength",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/RingLength.lean",
+   "upstream_sha256": "8110b448205d6743c3aa56fe6bfad1eaa4f1a8810b0f7b07a9bfe8083fa7315b",
+   "vendored_sha256": "02e5f5ed7b94bbeb439ccd74e30b0528889a6006a10a8b894adc57aaa94fbc54",
+   "lines": 136,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.StabilizedColonPowers",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/StabilizedColonPowers.lean",
+   "upstream_sha256": "2ff5f209849a614392f13aeb14f54f1bc6ef3941c7f3ffe162a1894a52007e73",
+   "vendored_sha256": "beaea713c85ddc53c20ea7550a107a8f00af96a0fdfd09f2d1892c0921205fae",
+   "lines": 113,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Model",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Model.lean",
+   "upstream_sha256": "d2235b23445e5c4699e94c4b4c11ad04d24d352ca8f01604f4c8eaea8c218c0b",
+   "vendored_sha256": "e8b0ff473dcc35765ba989f268cbd5a0663a1ef9b66dc52285e1b7013685a650",
+   "lines": 28,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Selection.Directions",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Selection/Directions.lean",
+   "upstream_sha256": "5f1188c145755e24249c23f62d305c5e430a7196c7c97631469daf684b5c66a4",
+   "vendored_sha256": "b78bccef8bfc40117d15cba155dcce824184c9b70395d16d56d33b87147ccccd",
+   "lines": 111,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Selection.RowSpan",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Selection/RowSpan.lean",
+   "upstream_sha256": "cfbca42084fd96574282fd46cad8f64cc1c1c02dc8e19bc9a9fc4729c2ed9735",
+   "vendored_sha256": "52043fa1acdde0f821dd6e3289a2b979c113abb7b2a1cb53687bcebfdf84755f",
+   "lines": 52,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.ArchimedeanTheta",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/ArchimedeanTheta.lean",
+   "upstream_sha256": "0e9ce93006502598372bca7bf0e688a8f8284ef21e74faf2075223af84d10170",
+   "vendored_sha256": "eece9f78e8f53e073e4f338d999e819ba2ba33cf7a6eb69a526f4b4fbb60b1b7",
+   "lines": 101,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.CyclicPrimeFactor",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/CyclicPrimeFactor.lean",
+   "upstream_sha256": "ab88413d775eecfddca5d7a7ca44a0b773d789c37887d31b3e84f43195b2a836",
+   "vendored_sha256": "1faa22806e95a566a1aab5c1111c720b3196ea60b2ef9c936c243e01a1ffcf41",
+   "lines": 58,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.DvrFractions",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/DvrFractions.lean",
+   "upstream_sha256": "19191e74a3ae1b0d60a63a059705e09dfd28435076312dbfa6d3334d3c522272",
+   "vendored_sha256": "a3c9437bf83fd77fe6bb83624f6196ca89e05e70d6a16aa7555e9cb550fc2ee0",
+   "lines": 50,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.EndomorphismEulerAdditivity",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/EndomorphismEulerAdditivity.lean",
+   "upstream_sha256": "ed78c146868d23e85960f64a4c10050c8bfa75da97e5106586daad1c6d61263b",
+   "vendored_sha256": "1a20ae02a4b5e9a1a07ae5bed5e6f3509f6dc8b9e409457c948a03a1a439fc79",
+   "lines": 248,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.GenericCombination",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/GenericCombination.lean",
+   "upstream_sha256": "263146c1078c358963b5ed75d5bae6bb62431c461bc9266bac4369f2b99ae99a",
+   "vendored_sha256": "70905520e7141e0db25b8457c602ea49fbfdd36f20084be50c15f6244f033e62",
+   "lines": 86,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.MasterContradiction",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/MasterContradiction.lean",
+   "upstream_sha256": "24d3e2871e3622792f096fb32912849a20eb10ef6747f1c8a813e66c284268e3",
+   "vendored_sha256": "9ac289d381328cbe713150aca313d3fbd554d500647274ffba27dbb597085627",
+   "lines": 195,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.OmegaIndependence",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/OmegaIndependence.lean",
+   "upstream_sha256": "9c235ac3928cae038608c9fa4131612367d7f66cdb26e3d75d8cd2d499da2ff1",
+   "vendored_sha256": "2eb014800351c7ae76048ad5670ed0b72b9ab0539a9efcd509eaf720833a1aa7",
+   "lines": 78,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Characters.BoundedConductor",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Characters/BoundedConductor.lean",
+   "upstream_sha256": "458d575ef13a255d9f9856aa38b9124038bb21f23e747439ca5c6b7c67e4664b",
+   "vendored_sha256": "08678b946ce17292eeb3ca8a4e3aea6de00584dcd389099ac90a116f8e782c64",
+   "lines": 55,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.EntireFunctions.FiniteNormalizationGrowth",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/EntireFunctions/FiniteNormalizationGrowth.lean",
+   "upstream_sha256": "da19c58f620170d358f46481615bba9cf306c46d560f53f926ab626c318836bd",
+   "vendored_sha256": "0cc07a14374d919acd895f5314a2b5fc991c73a3a1835e9a2c57aff873fbbb56",
+   "lines": 359,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.EntireFunctions.ZeroContribution",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/EntireFunctions/ZeroContribution.lean",
+   "upstream_sha256": "590fa39fdc2f6c5aa9c7fcc835464a937f8871d56cab275a4621b4e7b3e03b09",
+   "vendored_sha256": "ffb2f4d30f4eed80c21162aff72c38120b1d4ce708ef3c9043a6fdaacd14f312",
+   "lines": 49,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Estimates.AsymptoticAssembly",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Estimates/AsymptoticAssembly.lean",
+   "upstream_sha256": "4c402eb91075a5c7141cc3f1642d06d9b166938bba2ae4a598bcfca87ecf55ee",
+   "vendored_sha256": "a5094c95a71ff262df3ef4368fab0017f52625a3528ed23ac94770f77a711959",
+   "lines": 324,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Hilbert.ConeHomogeneousEquations",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Hilbert/ConeHomogeneousEquations.lean",
+   "upstream_sha256": "48a9abce760a0027c39eb6a11d4136671ed16e6c13c649c06d49e5d6cb654cf9",
+   "vendored_sha256": "ac97e19a8eac678a881d475dd2e58a8dbb01caa0febd9df238c0c22f403edd35",
+   "lines": 264,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Intersection.AffineTranscendenceDimension",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Intersection/AffineTranscendenceDimension.lean",
+   "upstream_sha256": "ab9f21958e72138fc0f82fa84fe5da48db7b102f7a1bc931277ff631fc8b1161",
+   "vendored_sha256": "e7fed4ff95d5cd1be2ef4fd93a06cffd5394e07e0c277af33a3b217195654f14",
+   "lines": 96,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Intersection.IsolatedIntersectionSteps",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Intersection/IsolatedIntersectionSteps.lean",
+   "upstream_sha256": "d289f979113d3777f1107fc0d7d6a06507ead44b503d2d08afe420389c7b2dfc",
+   "vendored_sha256": "3b829de41e80a32272880a00a11d1e0730cab490926564f7dbf5f20c00bdc44e",
+   "lines": 159,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.CoordinateQuotientGrading",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/CoordinateQuotientGrading.lean",
+   "upstream_sha256": "75240984d421de36a6deb5302edfbe04aab46c71893ea102a82357090cd75949",
+   "vendored_sha256": "6400c343b286fa09c1aa60be8fab3a38789ce37b4a9f5d80c48e3a76243b4ebd",
+   "lines": 293,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.LocalizedFiltrationLength",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/LocalizedFiltrationLength.lean",
+   "upstream_sha256": "e62fee58bb970dd7cc478aea9c4b107fb67ea180e10a52de01f2102de3b13a54",
+   "vendored_sha256": "96e071909dab45e85a98498a1339830ef7ffc0974d19474b2e1638a8a2571908",
+   "lines": 295,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.RegularParameterSelection",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/RegularParameterSelection.lean",
+   "upstream_sha256": "068f63144543f4943e93dabf1d3895f8f134547a51e4dc7b0187f378bf0448e4",
+   "vendored_sha256": "439a2bab4eb4c4820812ec0c0c5fd8f1ad7de6c237f18e18e2c8920836e2bd49",
+   "lines": 280,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.ScalarExtension",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/ScalarExtension.lean",
+   "upstream_sha256": "5f2c77adcf7f4d8952cd7f358537c55f4ed4e36ac2d67622d36e6ec0bbbd0cef",
+   "vendored_sha256": "60aac294ef7b6cc28262074367ffc8fb16376f6b557067b83d2b218d9e69ef58",
+   "lines": 100,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.TriangularLocalParametersTransport",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/TriangularLocalParametersTransport.lean",
+   "upstream_sha256": "fe6fa88857fc516ae85186dac047a3434135b70d187397216e0dd427887731bc",
+   "vendored_sha256": "85a14c8399072760ffbfac9f199e2e310f86f90c32d4ca82770b1f6f1c949fcc",
+   "lines": 718,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Selection.InvariantBox",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Selection/InvariantBox.lean",
+   "upstream_sha256": "319dd233144eec17df9048a4c2603ba97d559e2bdb10eacf35f76540119a8d33",
+   "vendored_sha256": "82d864fccdcf3b723f7f7bea580557589f0c665fff651845320bce297d2752e8",
+   "lines": 32,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Selection.RowReplacement",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Selection/RowReplacement.lean",
+   "upstream_sha256": "8f10402e6427afa99e1ca6eb186e6fedd5653d99647cac045555ab16ff69341b",
+   "vendored_sha256": "1cab841f0641e8695d602d3b4b0f86b971fe25bef5e2302332af6bbb510b07d6",
+   "lines": 248,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Selection.SplitCoordinateClosedPoint",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Selection/SplitCoordinateClosedPoint.lean",
+   "upstream_sha256": "a99f4f1f3c2aae392cf01e119d339dd00e788dc7f09ee83bca7da5de99649b0c",
+   "vendored_sha256": "4a14729826f05b56b97fefbd3d25523292507021e43c20317d1221327e0fa645",
+   "lines": 90,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.AffineFactor",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/AffineFactor.lean",
+   "upstream_sha256": "79e52961cee49836152ffd59ab2e187059be6820806637e91824a57f10502348",
+   "vendored_sha256": "a543cdb7a3a5c885afed0336753813e1864ad8c807e3b591168c49d9ac1a7595",
+   "lines": 151,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.ComponentHeight",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/ComponentHeight.lean",
+   "upstream_sha256": "ab5e348735ebdc89eb8b54fd2d0d22af945b22c6ced48e1525c3a2850f2c9797",
+   "vendored_sha256": "436014537802525c54f51a7385065111d3761172fd38c412503f9d2131cffa44",
+   "lines": 49,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.FieldAutomorphisms",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/FieldAutomorphisms.lean",
+   "upstream_sha256": "67bbb06b3d2a1e98904a3d8ca4957a41efc407631ebf44ff8b4e93709c7699c2",
+   "vendored_sha256": "8fc3acfe1716806dd081e6b3051e15f4c4d2d616d002aed2aa9b62b47b4f9d95",
+   "lines": 475,
+   "edited": true,
+   "fix_categories": "simp set"
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.FinsuppCandidates",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/FinsuppCandidates.lean",
+   "upstream_sha256": "79c743f0af88516b577290361870ce67394a0f961f7854ff36d0be4fda06c8d3",
+   "vendored_sha256": "2c8b9fb08914640aa5e1534535e91fc24e2e5615571fd0e357c05ce595f7c4d9",
+   "lines": 46,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.GradedGeneration",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/GradedGeneration.lean",
+   "upstream_sha256": "44f33fdfd2944c32c026a70030dcc31264d327d21164f5d73e64b0437e7f25cf",
+   "vendored_sha256": "3d93b90dcf7d6a3ebcddd501d265fc4504a738122e836de2500f3da095cd4bbc",
+   "lines": 160,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.KoszulDualStep",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/KoszulDualStep.lean",
+   "upstream_sha256": "6bd81bc0582422051f1699cd4d04be3e0f669228b94a7127e2012a79eded3f76",
+   "vendored_sha256": "65e324fdcbef7bcb326159879cf625d7ae79db0dc15c99c0f0ef7546a9322904",
+   "lines": 613,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.OrderedBasis",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/OrderedBasis.lean",
+   "upstream_sha256": "789c3e363fcfe9ceedd791c46d91bb643c9b5059acad1095fee8ccd10d5efa3e",
+   "vendored_sha256": "4fab58d6d8edee31f46b9af6db4eea02b389db8e895087e1ecdc064bece1c866",
+   "lines": 122,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.RealBridge",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/RealBridge.lean",
+   "upstream_sha256": "c30b6be99637abeeb776cdf32bada559c51e6c8a7d84ca4fbd989d46456b5e05",
+   "vendored_sha256": "584eb6c883b76226d7a670bf683c4c46f812bb9f5d1ea7594ba6e67a436bc021",
+   "lines": 108,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Characters.SquarefreeRadicands",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Characters/SquarefreeRadicands.lean",
+   "upstream_sha256": "26af5e0ca931e4d2907c2eeadd2ba6c3273360e14fc03be6b15cf11654c3d98f",
+   "vendored_sha256": "0a6605993ae75c493940a8e084bf569eb9d354af0b528d222e225f21063f7214",
+   "lines": 76,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Determinants.NormalizedCompletion",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Determinants/NormalizedCompletion.lean",
+   "upstream_sha256": "de472726d4f6f713f74f97a3aab1f8cfdcd371ab3545df977d26e76a2a3de69d",
+   "vendored_sha256": "6ac39d570f4b48619330ecb676c37210f4c1349f4a3d0b705810ba26541a68d5",
+   "lines": 101,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Determinants.ThetaDivisibility",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Determinants/ThetaDivisibility.lean",
+   "upstream_sha256": "dda44d0d1860fed5d9c20dbb2325608330959d37f5b600ef386b3fd10a38e87a",
+   "vendored_sha256": "01e4c552716eb4caa3e7bec10cd8342399579030ab711cf4858851741fe7c043",
+   "lines": 527,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Differentials.CotangentGeneration",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Differentials/CotangentGeneration.lean",
+   "upstream_sha256": "f1da20867d745c48bc5c97108c4bf1e07ee3f0fb4d7b4a5d06077426fd8cf8f3",
+   "vendored_sha256": "76d59320c30b48da2f7347a2728adf794d5aae8cd527142d133996a25fa603f4",
+   "lines": 75,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Differentials.DerivativeBound",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Differentials/DerivativeBound.lean",
+   "upstream_sha256": "d8abd16b7fe9f92e0482b073b26aa425d9302e9dbc2c78fa1bc34e7f81291121",
+   "vendored_sha256": "ffbb128a2a4d990bf7c213856b0ae7fa23c4a8fea9843dd7128d7bf2414a29d1",
+   "lines": 71,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Differentials.DerivativeMatrix",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Differentials/DerivativeMatrix.lean",
+   "upstream_sha256": "e5957ff0b557a14d705cabce3edd4a5e2d24d51cdd47dfcb55d3a59fc8c0f19c",
+   "vendored_sha256": "e9b54d575d424b83098c352ee99cab3b7d103076fe44e368d0adb203b029f65a",
+   "lines": 116,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.EntireFunctions.AffineCircles",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/EntireFunctions/AffineCircles.lean",
+   "upstream_sha256": "ef1f4aa9b269f2cbba2b998c161c58146503de51e45d7a50f40144153a4f0560",
+   "vendored_sha256": "a72bacfa4e92ccb96883d12a3f0ea61c129c3096685d184cf32b36e1d0fe3ea2",
+   "lines": 94,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Estimates.GenuineSequence",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Estimates/GenuineSequence.lean",
+   "upstream_sha256": "f6ee5f89651083298be9f77f8685f360f997c74fd6f401de0ade338478d706d9",
+   "vendored_sha256": "0d8b0900a71e83cfea85a175f6bf5cf415756557a4e26698d8a672e0da11b7bf",
+   "lines": 82,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Estimates.KoszulBounded",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Estimates/KoszulBounded.lean",
+   "upstream_sha256": "939a7d61c78a06669d94a78559839704344c8d90005d436c0d746ce076514ea3",
+   "vendored_sha256": "55f7fcce567f63c3bc446ff2bc69205049ccdee9f245d88b0558c3a22ef70fe9",
+   "lines": 71,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Hilbert.HilbertZeroVariables",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Hilbert/HilbertZeroVariables.lean",
+   "upstream_sha256": "8ddb196e2437619d26ed5ecaccf649538793d489328ef87b9692de6c716e3f26",
+   "vendored_sha256": "52540eb6a1d01346f8b0103333fa58b8d773522611c851775c9858399115947f",
+   "lines": 428,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Hilbert.HomogeneousComponentLength",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Hilbert/HomogeneousComponentLength.lean",
+   "upstream_sha256": "25853a6793fb18c9241d660f438172d073dac11bfdf2f27596dc3ccbdcc175c2",
+   "vendored_sha256": "a1d28139acc56feace48fa308b88e6cbdab796df14c1cf39c8275287b896b755",
+   "lines": 249,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Intersection.LocalIntersectionFormula",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Intersection/LocalIntersectionFormula.lean",
+   "upstream_sha256": "3139a2b0f7295faa09b6698495efb976cf720acfdcab189ad1b92f0825eb34e4",
+   "vendored_sha256": "ae8f6a690be2dfbcb927ea33724605ca0f254685c49a0aace6060c41b95f55b4",
+   "lines": 860,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Intersection.TorusProjectiveClosure",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Intersection/TorusProjectiveClosure.lean",
+   "upstream_sha256": "79cf8bdc65ab80873ced3db8c6cdc1814b3566c8023dba9a388dc2f138e39390",
+   "vendored_sha256": "83b5f38aa8d68b700f7e5f4535ac303c29b211c0092861633fa3a2b2088b57c3",
+   "lines": 601,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.AffineResidueTranscendence",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/AffineResidueTranscendence.lean",
+   "upstream_sha256": "212d33aabb0213759e3ee0515f2ea6269aa146e020a97ec5591ca7c1b66dc818",
+   "vendored_sha256": "d0b580ab588f72de4e40ad7f4a818d5529739b3c8cd98d9a0029ab0e149e71c7",
+   "lines": 88,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.ConeRegularSequence",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/ConeRegularSequence.lean",
+   "upstream_sha256": "cdd67265d50ab9a44dc02f7254f07c3710fc9b2769ea414af57448ade858190b",
+   "vendored_sha256": "38bde52ec7cc63bd4e97927631e9074ada2c072912e86c120b9c4e65de0b1247",
+   "lines": 244,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.ParameterIntegration",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/ParameterIntegration.lean",
+   "upstream_sha256": "f45d6623e06f88b6ebd5388038cb6e88beb843c1d57d3f407546aca9eba9518f",
+   "vendored_sha256": "9714343cc9fab9510c0e3c58f1839396f271c321741f5df63d90b83bc80a6bfa",
+   "lines": 298,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.PrimeResidueAlgebraEquiv",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/PrimeResidueAlgebraEquiv.lean",
+   "upstream_sha256": "b0c1aa6936e9415a111f32bf21e00c715518acd4be6c169221974291ae700d57",
+   "vendored_sha256": "1c09f57b5a7955566bcd9a5ae9f831a3c302367e5beed0761c33a4ce52145219",
+   "lines": 71,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.RegularSequenceAugmentation",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/RegularSequenceAugmentation.lean",
+   "upstream_sha256": "446a3249ec18da6e553ddade67b86539fc011019a746bba0c93aad503c7091a5",
+   "vendored_sha256": "615628f980cf13f0f9dbeea5c4e5d4a5b1b344d17c47db69be970127ac318221",
+   "lines": 72,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Selection.SelectionBridge",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Selection/SelectionBridge.lean",
+   "upstream_sha256": "16f286253035a3d6abb21331470806b4f580905ac0e8e36048681fc1c1cf4c8d",
+   "vendored_sha256": "88f06afdddcf43aef76a157221f9881dabcf89300364a43236becacf453f2c2e",
+   "lines": 651,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.RectangleGenerators",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/RectangleGenerators.lean",
+   "upstream_sha256": "dfa462a6f92eb1acaf413ba0014c9367291f632919dcacb595059e2e8bf1714b",
+   "vendored_sha256": "9c09846cd870c34037118fd3b893f08f9e4b20aade875ef5b1509a05aed46b4a",
+   "lines": 384,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.SplitClosedPointCompatibility",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/SplitClosedPointCompatibility.lean",
+   "upstream_sha256": "383b09f68502ae653b2fc9b63f64da6339349de4abb1de17e3487e6fd8844a78",
+   "vendored_sha256": "6d4f4862d84cbaebde62b304fe8f4b41765e42fe0e22135b9471841dd6ead2cd",
+   "lines": 109,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Determinants.GenericNormalizationFinite",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Determinants/GenericNormalizationFinite.lean",
+   "upstream_sha256": "b3767c3a66e66142032de8c074fddd008d2aa21e7b919cd5ad088e1af860a975",
+   "vendored_sha256": "fb8123d7718ea7a129b1b3cd8cfac2d4cfcf49ecbf626979fa11cabf84825388",
+   "lines": 316,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Differentials.GammaFactorDerivative",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Differentials/GammaFactorDerivative.lean",
+   "upstream_sha256": "d7c3ff09a8a4f4927d965311bb347668c2ead9fa6c99a2be5a2ba068836950d2",
+   "vendored_sha256": "aad833a9ec0bbdff80f676caf6288ace57abebb2b93d2b4cbf1b60aca8db446b",
+   "lines": 137,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Estimates.AffineAsymptotics",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Estimates/AffineAsymptotics.lean",
+   "upstream_sha256": "805ac0c4557a4f3b86ce04ec34a3bae5a4f766b4eca6f63a05ddf45408eee24e",
+   "vendored_sha256": "f49a37653036131d68acfc22482a12ae3a0459bdde8840411482a3722665964c",
+   "lines": 79,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.AffineClosedPointLocalization",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/AffineClosedPointLocalization.lean",
+   "upstream_sha256": "d619dd1363a87d707e3e9e21bf44f61888fdbfe9793be1f1347e803d8c81a49b",
+   "vendored_sha256": "c0adc61cd63ceabcdb5ff45fbb54108884f37cfa5370c1bd547093399c780398",
+   "lines": 384,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.ColonSeriesTelescope",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/ColonSeriesTelescope.lean",
+   "upstream_sha256": "3d754ffa222f023d88aacb56c153cd31c383f6e3dfc88948e0c9b09cc07ba6d7",
+   "vendored_sha256": "49980be8f72e5a034fdc602eed390f9da6e7a12414429618cfa9e06953b26482",
+   "lines": 107,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.GenericRegularity",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/GenericRegularity.lean",
+   "upstream_sha256": "29540ec9e8f2e7c7978b134a644720b360aec7b611d5d56c90ad57d73420c933",
+   "vendored_sha256": "416dec61089f362b379dec06f8c738c71115271b80ddd6af4fd8ca9e47533824",
+   "lines": 75,
+   "edited": true,
+   "fix_categories": "module visibility"
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.JetCoefficients",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/JetCoefficients.lean",
+   "upstream_sha256": "42795263f2ae7856b12d7235e0960d435989203dda61d3ad5fdddc2e6ba63034",
+   "vendored_sha256": "47c4c99c4f01d9a0b57158677d7bc31807907db3553f6f5b9ac72fda10f17202",
+   "lines": 114,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.LocalizedOneCutPropagation",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/LocalizedOneCutPropagation.lean",
+   "upstream_sha256": "116fd0e7c1f002528a9b02ef716b2443b27b0779d1457421be0292a3f1de9b7e",
+   "vendored_sha256": "569a9b1edce2da7ed0dabc5f8fdcd383ac89c956e571b7c17fd6d0b0db3182dd",
+   "lines": 83,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.PolynomialBridge",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/PolynomialBridge.lean",
+   "upstream_sha256": "887ae6d63e62866681fb2655f7259670d670e280cc1d381db8a93e7ade559895",
+   "vendored_sha256": "51078aa39123fc226f2651032ce623ab51ac3c54d140d55a74bb7026969ba583",
+   "lines": 59,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.RectangularLocalization",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/RectangularLocalization.lean",
+   "upstream_sha256": "4f08f94ee983e4029c1674844861726bc7f4f0f31908a3ee866766369ec36998",
+   "vendored_sha256": "ff3817d9b03ee34ed0d49e1cba98bc9fcee9821bcaa21d03ecb16b810a54eb1d",
+   "lines": 139,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.RegularPrefixLocalization",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/RegularPrefixLocalization.lean",
+   "upstream_sha256": "307fd22ab0775e38714902009a7b966ced5215e56e001cfff67dfb6a415a4d9d",
+   "vendored_sha256": "4d56b1af08ee85e1d381a3a9f1627b0f27275a2b55ea3fabb8ff336934b11048",
+   "lines": 627,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.RegularSequenceSeries",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/RegularSequenceSeries.lean",
+   "upstream_sha256": "9387a09262e455067e49e4973c90f0ad1d862f52953b8197cb93ca8112d8ae1c",
+   "vendored_sha256": "cb9087b52e24e7c2d6c5315908e9356de50e9f63bfefa0e72055680cc764e09e",
+   "lines": 171,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.ResidueMap",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/ResidueMap.lean",
+   "upstream_sha256": "dda8d390ccba445556730d979255c90efff440408d14a155c4e1013206fd293b",
+   "vendored_sha256": "0a1e62e2cedb61a31c5f812af79537370c699f8ce876ab842644ece8e1ec51cf",
+   "lines": 352,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.SequenceParameters",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/SequenceParameters.lean",
+   "upstream_sha256": "83f44d9ce32306eca51583048da4cb1809076894feb3a90f394e9c082b01673f",
+   "vendored_sha256": "7c1a1a6b64fdd4f536c27c54688a61e3f872009b63e4e0729242993c6dde1772",
+   "lines": 58,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.FiberCount",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/FiberCount.lean",
+   "upstream_sha256": "b147f797561230b218554f9988a10970f1594dfbbc22c6e69868f812f58a6da5",
+   "vendored_sha256": "4def5129363f1f83a8b219b0d67f22b1e1b5da671acf83e00e2dde98991dfe5b",
+   "lines": 60,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.FiniteLower",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/FiniteLower.lean",
+   "upstream_sha256": "b0ffc0aee9d8fd4fa8710f14cc0c7bb69ca6cba3cbe9c642c86fc150a928bbae",
+   "vendored_sha256": "7bf9edad5fafd04fceaa9e08e2f3f765c401267e405c64faf286415bbedc5567",
+   "lines": 74,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.GaussLegendre",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/GaussLegendre.lean",
+   "upstream_sha256": "1d3aabdb5293d870ecd767e65df3ad888edecadbe5b42e1c16d282f044b45512",
+   "vendored_sha256": "dcb57f115c8e5622a2c4d829b0a7a9b7967b3131b37d09cdb0a53db21380f14d",
+   "lines": 66,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.IdentityHeight",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/IdentityHeight.lean",
+   "upstream_sha256": "32eee715388abb468343a2c89104339b925c5027b0a6d04704fb1db020857774",
+   "vendored_sha256": "ca7490abb28a57e142c9b1932920646257c45de65c6c3f683322616ebc72022a",
+   "lines": 160,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.IteratedKoszulExactness",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/IteratedKoszulExactness.lean",
+   "upstream_sha256": "4aba5ebff7df4cafd088bc5bbba339d179571bd4faf5cd83ffce6a5f29802852",
+   "vendored_sha256": "5949a424af9ea50a8602055c308d2da4aab539a06617e629e60bdff9ac0acc0c",
+   "lines": 132,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.KoszulTopTerm",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/KoszulTopTerm.lean",
+   "upstream_sha256": "bdef4605b1105a4436296d34bb192298052d21ad09a22b28d5ccb28bb8b9acd4",
+   "vendored_sha256": "1048415be4392ca0cc15b48312e18d33aa472294a1ee176ef8f638e41395744b",
+   "lines": 73,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.RealCutoff",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/RealCutoff.lean",
+   "upstream_sha256": "8da29d4f49ea033e18e8679eb0dc9cf48d1a4742bb4bb03570b29d042269466b",
+   "vendored_sha256": "71d2708e63d0bfe7f342c33f98cfa76498ab189bf41e067d14c6bf31a9b9868c",
+   "lines": 48,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.SignedDiscriminant",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/SignedDiscriminant.lean",
+   "upstream_sha256": "77c024c91a8db4d2db573996ab33f062d26c02e16f51a6435bf7c2283cb742d6",
+   "vendored_sha256": "9c92a36d66d5971aaeb7ece2c0c286904b6c728551b6e2edb65f284e7712ca03",
+   "lines": 90,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.ThetaJetBridge",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/ThetaJetBridge.lean",
+   "upstream_sha256": "108dec68754ee117f0e00d6555afee5ebaddd7e66928ed1e68782c891037d2e1",
+   "vendored_sha256": "982029e2604fdad9d56dfc6886ae2200be19519bcc090b454d437eeb6ff4eea5",
+   "lines": 84,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Characters.CharacterLegendre",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Characters/CharacterLegendre.lean",
+   "upstream_sha256": "a6cfd491c6715fada0d4e986b9ef03ee9904f6b77a7fa7f417b97a556e1cf7c5",
+   "vendored_sha256": "208b7ef5d5a44406e1107c8d11b2138527d15fae7e9379ca5ada6fc43190096f",
+   "lines": 204,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Determinants.RectangleDeterminant",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Determinants/RectangleDeterminant.lean",
+   "upstream_sha256": "f34e48a02871475693db8d762db857069daa009aa93bfbae011cae9761bdacbb",
+   "vendored_sha256": "c5c74c2e10e2c57d4a1f3336af3831dc76148eed66f93f3cf9fe2ee83739273e",
+   "lines": 113,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Differentials.KoszulTopDifferential",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Differentials/KoszulTopDifferential.lean",
+   "upstream_sha256": "f66a58a0edd217c435857b697709622e2726e0a8866841af281913f855a027bc",
+   "vendored_sha256": "386e56602a350daac9ff97186cabc775f1b579777cff616dabde46454e172220",
+   "lines": 84,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Differentials.SelectedCotangent",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Differentials/SelectedCotangent.lean",
+   "upstream_sha256": "3c957a3f7cad8969d9daa1416c8015c2b77db80dda964bee96eee3808b81b2de",
+   "vendored_sha256": "02faf989d3a9228e51df4aeb7f7d09818b943cb815952b107f13097533b5c079",
+   "lines": 764,
+   "edited": true,
+   "fix_categories": "changed API"
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Hilbert.ProperHypersurfaceHilbert",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Hilbert/ProperHypersurfaceHilbert.lean",
+   "upstream_sha256": "9b6e49297429dae1e4866401671cdbdc2d3711c36435eb63bb652625218cec5d",
+   "vendored_sha256": "07957c80144ed46591bb3e876f76c7176574b439a5d86a9802f27875b1b14c75",
+   "lines": 749,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Intersection.LocalPrefixCutDimension",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Intersection/LocalPrefixCutDimension.lean",
+   "upstream_sha256": "d724ddad8990473d1c4aa6a50a01ab021741234b2ba25b47b60fed90ef78b03e",
+   "vendored_sha256": "c0262d691a208a8feaca2e4c14dcb63cd30b61c6c9861f25c5aadeefc2958160",
+   "lines": 108,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Intersection.TorusPolynomial",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Intersection/TorusPolynomial.lean",
+   "upstream_sha256": "91be758804d287f2d0d187fa44c071622b4c29f973fb67345ad91aea799b5802",
+   "vendored_sha256": "a331bf8884d677d89c36f9a227a4ed9af0f3ef165502c4c1df8c03147aa1733b",
+   "lines": 141,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Selection.CoordinateBasisSplitting",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Selection/CoordinateBasisSplitting.lean",
+   "upstream_sha256": "5dfd17f6f676afa777c053ae308ab0a82ea38bd3f609dff782daffc03056fcc5",
+   "vendored_sha256": "0765337a8cbfae7fe7f6aca75bf80c962964d94a05dccfdbe2804e243aed21ea",
+   "lines": 96,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Selection.EventuallyPivots",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Selection/EventuallyPivots.lean",
+   "upstream_sha256": "bbc7abd2b4f5dfef2c47f4b8e13eff2e8d211a981e4770c76760a4b78a8d8586",
+   "vendored_sha256": "6611ad9cea2753c3f3ed3554a8ce6720691b3b8bda1563aa3425c540c670d201",
+   "lines": 391,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Selection.OrderedGreedyRows",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Selection/OrderedGreedyRows.lean",
+   "upstream_sha256": "d85d283e193fbcde9c0318992ee0a4aa446049fe443fdc34f9820a1cc5fee5c9",
+   "vendored_sha256": "3466e673e8da14f74d0e48eaa112feb305eecbcc16ff33d9ae3179b0fd2ad82f",
+   "lines": 77,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Selection.PivotReindexing",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Selection/PivotReindexing.lean",
+   "upstream_sha256": "1735ba1fbc5144547284c5efc8f3c6230748858f35028b096e24aa768885fabb",
+   "vendored_sha256": "3e63a2d174ebcfeb12fadcaa75d9474d1449f563886dfb6f5eb68aceeb0d56c7",
+   "lines": 170,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Determinants.DeterminantComparison",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Determinants/DeterminantComparison.lean",
+   "upstream_sha256": "697a7448040e228eb677d250e2236f635377464ea9b77180d80c36f7545883af",
+   "vendored_sha256": "7d19c96493023623183001679c0d990a9726a83b5cff47225e7706d74ba2f700",
+   "lines": 236,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Determinants.NormalSurjectivity",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Determinants/NormalSurjectivity.lean",
+   "upstream_sha256": "34f794dcb2d9ced6796fff97677328b84558ca415252716f69b7cac4583d926c",
+   "vendored_sha256": "e0205aa53428f947b5cedb0af4e7594546acd61ce7c8f31630f51de24b90e57f",
+   "lines": 131,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Differentials.DerivativeGeneratorBridge",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Differentials/DerivativeGeneratorBridge.lean",
+   "upstream_sha256": "f9a7b30dae03ef0b11a8d891a8e5e12fbe50d2aef80720366020a08b9d49d778",
+   "vendored_sha256": "9431a3f86b7689fe34dcccd340d7e51c36cb44ef38502791c697bf24e98c3e41",
+   "lines": 213,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Hilbert.PrimeHilbertComparison",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Hilbert/PrimeHilbertComparison.lean",
+   "upstream_sha256": "7278b2790d544ca6677e190a9c0e196102e5497d3f27110b56da80c0484adec5",
+   "vendored_sha256": "61d0f694a44b051a7a5abfbd7fd72722edb7503416e342ae41fea3c6ce0e1977",
+   "lines": 524,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.PolynomialLocalRegularParameters",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/PolynomialLocalRegularParameters.lean",
+   "upstream_sha256": "a515ccca829c1d4e43fb8595262362793eb5bdefec285ea60cf4df977c8182b9",
+   "vendored_sha256": "06e90302a4850f4fbd2605e09da7e8316e39137247fd63af916d17e69a10ef0a",
+   "lines": 134,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.CodimensionOne",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/CodimensionOne.lean",
+   "upstream_sha256": "bb5f2dd575d21986f3e161db64f1f7c7ee11fd3b27beaa6799a9fe34a332ed79",
+   "vendored_sha256": "69c71864968a7cc0ec466e147bd52c6d1ae1b0dea7f401d6bbba090cdaac281e",
+   "lines": 93,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.EventuallyInputs",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/EventuallyInputs.lean",
+   "upstream_sha256": "0a6a6ca198972fcf1dd64c1e7d5e5f976f080c260d121baceff1fd2a7e367833",
+   "vendored_sha256": "748ff57cdff465a613b5aebb587d0c9a099a4dbd442f47ff56c3e1e72b967c49",
+   "lines": 70,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.Factorization",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/Factorization.lean",
+   "upstream_sha256": "87e25de781cd2d63ae2932a47dca48898e7a1fa01e5540e94b9b88b9a99ad9d5",
+   "vendored_sha256": "f93514cc062860ae6cb36cacb737b88aae221fb34717fe7677a6e9d3bcee90f4",
+   "lines": 87,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.GaussFixedField",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/GaussFixedField.lean",
+   "upstream_sha256": "cdb9a7bafea90f3afa148cd44a62475481a995411967f53407e152c3f3c6f668",
+   "vendored_sha256": "df9130a8f3286d3acded38cef09a9c6c9b6cfcf17fd0561ba41ccd31cfd4bed9",
+   "lines": 419,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.KoszulDualInitial",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/KoszulDualInitial.lean",
+   "upstream_sha256": "08e172438d79339fc34f86e31a7277efdbfbf76c74413f10dd829f90b221f1b3",
+   "vendored_sha256": "342dd7190df79afa401ae3356668f954227c48faa773c70959ad481dcf051508",
+   "lines": 190,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Intersection.DivisorSmoothness",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Intersection/DivisorSmoothness.lean",
+   "upstream_sha256": "9fa0b03b478d6ed0fadcc857703668973ad366f5db4d46fe6d48c38882d82cef",
+   "vendored_sha256": "574e1545302e74a204fcf0ea8f551e0b9e37dd6e371dff92125bf8e460f6f760",
+   "lines": 119,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Intersection.PrimeHypersurfaceEquidimension",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Intersection/PrimeHypersurfaceEquidimension.lean",
+   "upstream_sha256": "11f575bf7969703070237adc40a7467294267fe3361ea753727d2abe8a412275",
+   "vendored_sha256": "814a5038217fb2b0932a19c9a1635c78ba216a99f4e1b5454413ee374765d9b4",
+   "lines": 400,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.GaussMinimalPolynomial",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/GaussMinimalPolynomial.lean",
+   "upstream_sha256": "99b3cb64c0a4cdad57841daf71a0f30372159d95760ba3f11c9e42f3d1b8cb34",
+   "vendored_sha256": "8c27942d5172effb3e64bbb27d3352466779662135e52be77543e003bb64e3fd",
+   "lines": 98,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.LocalResidueTaylor",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/LocalResidueTaylor.lean",
+   "upstream_sha256": "49d7164f8b56c3c26788f88c50d71c88517f43f11cb5772da64f4c499638a8e2",
+   "vendored_sha256": "1c15da881223471880d22e5046e6fd3b7948672a23df926f27b907ceef604c03",
+   "lines": 63,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.RegularParameterSelectionLemmas",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/RegularParameterSelectionLemmas.lean",
+   "upstream_sha256": "e250fc012a4401c19e0e3cc3dfd9d8f930149a98986428619127fbdf533a4ca1",
+   "vendored_sha256": "819944d340003dc3964acd6bd7617db0ff7eee12f91ad48b687933b915e2e6e1",
+   "lines": 700,
+   "edited": true,
+   "fix_categories": "simp set"
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Selection.EventualSelection",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Selection/EventualSelection.lean",
+   "upstream_sha256": "a2d893856c6f4d0ec744bf85cab3ab2f40926983e161393c0c8a1a9fc3b37496",
+   "vendored_sha256": "bea7dacf5df78bdf7173f9808c8fb4fe5f47fe88b2589d574ea19842407fdf0b",
+   "lines": 121,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.ConcreteArchimedean",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/ConcreteArchimedean.lean",
+   "upstream_sha256": "78d5683b73f8267de5167e9558dce6f4706bd40c764e6d527c6aa4a9e1f5eae6",
+   "vendored_sha256": "43a10392cc6702a24595795c072a3faadfa7962ad24c8d93638e3d7922b8f519",
+   "lines": 440,
+   "edited": true,
+   "fix_categories": "simp set"
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.HeightFourIdentity",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/HeightFourIdentity.lean",
+   "upstream_sha256": "5a0ed99e2d0f090aed19bc1e18d6669caf253213f1e023d9815ebd34e36fd0bb",
+   "vendored_sha256": "756e8c0a897c9df632427bc98ec472f426c0f5b9a442761e6950353a962213b8",
+   "lines": 81,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.PrimeDegreeExistence",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/PrimeDegreeExistence.lean",
+   "upstream_sha256": "ff05b8c68136e8a31f7ebf9770ea62bf45fa9b5164d5bd1da78ee083244f5b87",
+   "vendored_sha256": "c970e99466ceddc1279ce7a5c68e6b2df8bc893891935f36f8d42682356d8a84",
+   "lines": 60,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Characters.GaussSquarefreeBridge",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Characters/GaussSquarefreeBridge.lean",
+   "upstream_sha256": "80f0044d7c00aa8928cf625c85450dfa60b230632d217e2ac873b0f4cbe5dacd",
+   "vendored_sha256": "9a890b34e9c933a6cee5413e7fa06e52699a8319aad5cfc847bb6b88b0c318b7",
+   "lines": 132,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Determinants.GeneratedGreedyDivisibility",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Determinants/GeneratedGreedyDivisibility.lean",
+   "upstream_sha256": "d9de8bb54d30c226931ab3c9306ca9726f7097a434edc3e6dcff595f125b3509",
+   "vendored_sha256": "382991b800637f349a8fa00888388fd545a51934d8572fd7af11b893f9b0fba4",
+   "lines": 640,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Determinants.IntegralGaussReduction",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Determinants/IntegralGaussReduction.lean",
+   "upstream_sha256": "d4936b05ae2eafcee96dce4f3f2a912047791abf09f0d9b48b3372563bc3e6b3",
+   "vendored_sha256": "94a2cc5da22410e84b38648ee9737a9f115dde5089c0f52169d00dc3fa362327",
+   "lines": 89,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Hilbert.HilbertMultiplicityFiltration",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Hilbert/HilbertMultiplicityFiltration.lean",
+   "upstream_sha256": "650d63ffe7bd8100cf13881401bf6e6c1a59e69660e51e746209213d47bfebd3",
+   "vendored_sha256": "1760244a9d4731f96a4e382f4540ca14aec9cc496ee448a48abfac13c8f58afa",
+   "lines": 190,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.CanonicalDivisorScalars",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/CanonicalDivisorScalars.lean",
+   "upstream_sha256": "b2ccba006534472f73fa1ac2d26cda371d6175b2c1dd317f489d331a03fde2d0",
+   "vendored_sha256": "c8f14e9e8278e1ec98f1569165bde771ec87140b57cd64a5d508e460899b5e26",
+   "lines": 305,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.SelectedComponentTaylor",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/SelectedComponentTaylor.lean",
+   "upstream_sha256": "93456ec6334374ec51fe12be86062db244ec5fbba410c9be7409638dedc1886b",
+   "vendored_sha256": "f4c842bf522fdb1a9bb039c21ba1e53101ac9c7660f8d62e9ab68b2a3bdc2917",
+   "lines": 397,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Characters.CharacterFrobenius",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Characters/CharacterFrobenius.lean",
+   "upstream_sha256": "10acb08bf5de2c555aa375a674d8ed514ce1e3701f8b4df3360a4858e7b0ff69",
+   "vendored_sha256": "61614039dc55185c1b628b0a7c69c89d64da167716b7590db3f469f28971fbc5",
+   "lines": 116,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Estimates.ComponentMultiplicityBound",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Estimates/ComponentMultiplicityBound.lean",
+   "upstream_sha256": "fd907054fc7651790167ee4e3d56730f9d9166d5c659abafe27dcc584facbf34",
+   "vendored_sha256": "a6aca0e1c3bddada66e82585c13fbca61a2c4a36c949bc90cbe4366beca7259b",
+   "lines": 111,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.GenericResidueFunctionField",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/GenericResidueFunctionField.lean",
+   "upstream_sha256": "17227e13f296d76b5222e1ce98f01e68504ed3a9cfc02484e8b6bf3be809857a",
+   "vendored_sha256": "a60b3fc1a39460d327b26b4213483ac7ceb50a6633587bce4636cd35108efd06",
+   "lines": 87,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.GlobalStalkExtension",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/GlobalStalkExtension.lean",
+   "upstream_sha256": "ea734a55b16bbd488fd9c96c3a66cb35fcb0601d67270ecb7a28a8a05799f8a1",
+   "vendored_sha256": "2e587ddaaeba88bd0d1e73678c270afd5e1999999f6fd22f0b1ac80acb9e1b82",
+   "lines": 233,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.SelectedLengthContradiction",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/SelectedLengthContradiction.lean",
+   "upstream_sha256": "b1aabcb7f4376158cf5bbba78061a1ba021054a22841042964c0306cfee5812c",
+   "vendored_sha256": "16ce1181214b02bc8422dd2b69b94879ae6e5e9478cb224b2c7f7444aa3e6d0e",
+   "lines": 279,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Selection.CoordinateConstancy",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Selection/CoordinateConstancy.lean",
+   "upstream_sha256": "0d7a14c01abfdb105fddb380434ab09dfff2cc1df93535f043360792a68a97ad",
+   "vendored_sha256": "a9786032ce0b715986851b231871019bb813c3b763e832850c89639ecbc9e36f",
+   "lines": 74,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.ConcreteArchimedeanBridge",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/ConcreteArchimedeanBridge.lean",
+   "upstream_sha256": "112bec3e720104c3da05f600e64bf02224647582b9003306d4d78f36498dc6b8",
+   "vendored_sha256": "8a8cebb9902e8b2b03c436ad86d2295384d32f0a665c03bb25b9d15d33348d3d",
+   "lines": 70,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.PrimeCutBudget",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/PrimeCutBudget.lean",
+   "upstream_sha256": "73bc29f1cacbba6da4a10a45f8677e88abf896c0a5f1480044b1c13b473fff48",
+   "vendored_sha256": "010e7fd174a3972994e742eb826d61fcdbf21ebad4da48c0c695327293639ba7",
+   "lines": 269,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Differentials.UnconditionalGlobalLogform",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Differentials/UnconditionalGlobalLogform.lean",
+   "upstream_sha256": "702153a2dd04e903612d1102e2775d1d2aeb8d2b2f19f90c98ddae1c611f4e7a",
+   "vendored_sha256": "f7de4fa6456b03e21a0de06c3c25f783e6e70994701053e1489bc0491a102200",
+   "lines": 386,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Intersection.CompleteIntersectionComponentBound",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Intersection/CompleteIntersectionComponentBound.lean",
+   "upstream_sha256": "8082368a549e77e63612672e0d7406f6eb1ad915af14264f3508552562f13e6a",
+   "vendored_sha256": "4af6e56df5912035696a497dcaf8fd25d2295d9d2500aabdca7cde19234c11bf",
+   "lines": 125,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Intersection.RetainedIntersectionCycles",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Intersection/RetainedIntersectionCycles.lean",
+   "upstream_sha256": "20208aa267a48c72cfe2e774d050108e0567b29e177f1dc9673059fc17dfe86b",
+   "vendored_sha256": "a4af786743bf3152c0f523549b2379d97700148db627e179ef269713a1870981",
+   "lines": 222,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.Augmentation",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/Augmentation.lean",
+   "upstream_sha256": "5d7ba1f928a0056c22ec6afa5d442d89c7674d916e5dfab3717e06a4e642ec92",
+   "vendored_sha256": "c6f3196d67b4d28f107210b243919d791ceab6d1ec48264d8c959e5e00511b9c",
+   "lines": 123,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.Radicand",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/Radicand.lean",
+   "upstream_sha256": "bfac92ded511cc6325301049db19f0bbb7492cd64b3ee18ab5c262e16cd07640",
+   "vendored_sha256": "4bf0f0c2230f9b5c1c7af39d4dd53cd205b009d294b59519748a41a1dbc754de",
+   "lines": 92,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.RectanglePresentation",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/RectanglePresentation.lean",
+   "upstream_sha256": "2ae7b8222feb30d6b01d6a1996240b976b1a88a8dd9ab13a42397d45ab05ae1e",
+   "vendored_sha256": "5e4397fe43a4a6d94d47f2084530be1fb80cb62737b2b6ebd7eac1f2c38b82e4",
+   "lines": 163,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Characters.CharacterDeterminant",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Characters/CharacterDeterminant.lean",
+   "upstream_sha256": "92712088fc0dd9653110c7c9fdf842d020a3587c2cf5a436fb9eeeca011d8d4b",
+   "vendored_sha256": "523dc7e523bf9fc4c4871e9688534bd71ac44aed87d5b227fd027922b506a1d3",
+   "lines": 89,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Determinants.NormalSelection",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Determinants/NormalSelection.lean",
+   "upstream_sha256": "c723a28b8ca979e981c7230fe955df95b743623562c2b3ac6bb5413f8847b696",
+   "vendored_sha256": "b9d859cdbdec4e066f04355cecac7a5d65cbda3319b98c7fa810c25426ee6580",
+   "lines": 194,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Differentials.RectangleCotangentBasis",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Differentials/RectangleCotangentBasis.lean",
+   "upstream_sha256": "99ca0cfebf6c6265257d699ba39b489cb57516c43989c58666ba4d69f2dd22d9",
+   "vendored_sha256": "005cbc7340a9977d561a2835e7e4e6cc6a1f98d51bff05b08910b7c111f8c83f",
+   "lines": 228,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.MultiplicityCycles",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/MultiplicityCycles.lean",
+   "upstream_sha256": "a04aeca32448f524a8425b54b7970ccc4cd76bfdf968f55b8fa1e73a57073aa3",
+   "vendored_sha256": "ca36a74339f3cd36e0ac0d98dcb8b94e6bff3f84622567e35b1fbf52264c1b99",
+   "lines": 562,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.HeightFourLength",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/HeightFourLength.lean",
+   "upstream_sha256": "5e60b402ae6bbe36adf76e975552a44eeaa8718299045be6cc5dd906cc0efbf3",
+   "vendored_sha256": "e45e6d2213f4b9d57d53d22a33747d200b940f3bd743289b706699b944ee218f",
+   "lines": 521,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.RegularCutHistory",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/RegularCutHistory.lean",
+   "upstream_sha256": "5ecfa2fdd1fe8bee31cf0ff28a7772c488793668666c1a160b6271d3d34ddf83",
+   "vendored_sha256": "7c7add1d813e5bb7185b0c4109d5fc7eeea75ece58297d78924f783fdf4108bf",
+   "lines": 159,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.ResidueDirectionSelection",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/ResidueDirectionSelection.lean",
+   "upstream_sha256": "3e905819a9fa5596697696e275547e6ad2cdb53b23997e4ca1bcbbc93a5a6b7b",
+   "vendored_sha256": "576ae3574648027a3cefa5bcfa4230b5a848dbd1f2fcebcfacc85a3c3df6fb1a",
+   "lines": 367,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Hilbert.HomogeneousListHistory",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Hilbert/HomogeneousListHistory.lean",
+   "upstream_sha256": "e5e9e74a706be1e26ca6d6991feb6ec0f97ccd237913f4e51628dfb5c94f426c",
+   "vendored_sha256": "8d909e05e7d6091fdb7608b74802fe7030e75345e7ef3e5d2b9d90e114bfeadc",
+   "lines": 249,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Intersection.IsolatedBezoutFromRegularSelection",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Intersection/IsolatedBezoutFromRegularSelection.lean",
+   "upstream_sha256": "fed4fb39aca22e61f451ada080f9c9a7ca1f1660646ce5382932a2d3e2a86edb",
+   "vendored_sha256": "365d369723058f2d3bee043c38c5b62b8bf4b6025991d882db27c61603e30ee5",
+   "lines": 382,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.ArithmeticCutoffTransport",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/ArithmeticCutoffTransport.lean",
+   "upstream_sha256": "c822c8794a7c0fd403e17e199b1df942b892a25d40d76920329615d0f34667ef",
+   "vendored_sha256": "f61bcbe817a1cf5fb5395d2d2db62e8402a76fffc67af8a59447fe536dadee4d",
+   "lines": 533,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Characters.CharacterMaster",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Characters/CharacterMaster.lean",
+   "upstream_sha256": "454de6d65cd7cd70facb94cf1d63233a5630d0bfadedc060d8ea64ef4e19ad90",
+   "vendored_sha256": "626bd50a34605a9ff0a8a904fed139c92daf2a9f5d13997d7232c09dc07d1666",
+   "lines": 419,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.RamifiedMass",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/RamifiedMass.lean",
+   "upstream_sha256": "e6ef0ea1a2d9046662c61ea0a0f7e277bdc66dc0eb7beb067777373c1ddd2420",
+   "vendored_sha256": "2d9fc43d6f9b63fee195435ab54834074b8e7ed2dbdc133123eeb1746c70cbfc",
+   "lines": 94,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Characters.ConditionalPrimeBias",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Characters/ConditionalPrimeBias.lean",
+   "upstream_sha256": "07b9c81329f7cc2a2315b1a5421bf0ed8525be6771400040c7c208e9ed5a03ee",
+   "vendored_sha256": "46532f837040f13161f646ee5a594e31a4fb30176de0abae581ce03ae8ed4c2b",
+   "lines": 232,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.EntireFunctions.AvoidZeroRadii",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/EntireFunctions/AvoidZeroRadii.lean",
+   "upstream_sha256": "0a238ada05c31a09a6b1b89a4d9fdb40ffada992a4184511bccfc0f13f8168eb",
+   "vendored_sha256": "a403f7cdc0884477714871d71ed9ef5f629f57054f97a524f4ab0cd76d078d73",
+   "lines": 862,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.CanonicalQuotient",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/LocalAlgebra/CanonicalQuotient.lean",
+   "upstream_sha256": "6da2735a2b2806cfd9d82f649d634b563c4c86d18487ad29163ff316644c905d",
+   "vendored_sha256": "068216b1a9b9b854438d6052c6f7235f538a229b774ac0d8635604eef1a5f04d",
+   "lines": 109,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.CanonicalGoodMass",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/CanonicalGoodMass.lean",
+   "upstream_sha256": "3f1e9b71db49e831c5e6961fca8846196708ecd8f5a761f6e40dd67d60a9977a",
+   "vendored_sha256": "38961529df658c72356a539f9983d58f4c17ed1c9a9cd60b4d73ad06c5c69160",
+   "lines": 178,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.Convergence",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/Convergence.lean",
+   "upstream_sha256": "d3361982d186ecb91938d5293ea92fcb7fdd0e0b191fe0ecd476fdb170baac83",
+   "vendored_sha256": "d666a78605a80ad73cce5b65cca6cb3c023eafc236073e7e969ae8fa53d29e7c",
+   "lines": 100,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.EntireFunctions.DeletedProduct",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/EntireFunctions/DeletedProduct.lean",
+   "upstream_sha256": "dd27c8663883c6bcc3b1556826778ed765f375ab452d182b8d04475968a96f25",
+   "vendored_sha256": "99857495cf5e97b247408cab29cb089ee4e148769322815b4009f1bfc1e80121",
+   "lines": 767,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.EntireFunctions.NormalizedHadamardTransfer",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/EntireFunctions/NormalizedHadamardTransfer.lean",
+   "upstream_sha256": "8eeddff25cdceca01d8b79c3eaac5615beb185b9fc88c82ac96f87af28a3e5fb",
+   "vendored_sha256": "64993bcac72ad7accaf5f481c2d32ccf6a3ed383acdf869dd3bbad97ecdbb371",
+   "lines": 125,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Estimates.LowerBoundTransfer",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Estimates/LowerBoundTransfer.lean",
+   "upstream_sha256": "66dfc13758bfd9d88b75b0a458183f918da13e69b713e805b6c2f06fee0842d6",
+   "vendored_sha256": "ac3b013abfa2018e1b29f75cb8b58b7e1611bf7bd40c84b75b48697882b2ea8d",
+   "lines": 175,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.AffineAssembly",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Structure/AffineAssembly.lean",
+   "upstream_sha256": "da4093979f29113385d7b6e352577b328210195620516e42762a3651eed6b1a5",
+   "vendored_sha256": "30549457142c4f8bca5eea1c25395770d1e2da6f8002b0c2a1ae51bac3b1f235",
+   "lines": 411,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.EntireFunctions.ReflectionZeros",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/EntireFunctions/ReflectionZeros.lean",
+   "upstream_sha256": "b0a5fe032c7db38ebafc743d1e2bbfef25745dd1dacfefd58780f1c5fd96797a",
+   "vendored_sha256": "323f529adf645f4ae95da9e83537d46f466962f30b5dd647d9c2cd4944459622",
+   "lines": 96,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Estimates.ConstantCancellation",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Estimates/ConstantCancellation.lean",
+   "upstream_sha256": "a9ac32cc015abb4af427136b89324dfab11fcfe8cd1a3cfcfd0bbec783fdeaa3",
+   "vendored_sha256": "a7beeb39e4038580113eb176244d4a6421e260e9c0ace8e14f4def57de79251e",
+   "lines": 140,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Characters.UnconditionalPrimeBias",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Characters/UnconditionalPrimeBias.lean",
+   "upstream_sha256": "048542a94739c4ae9478fa21fd1d2319a5d17f2e67a63b9862c19d86aa6ad6d4",
+   "vendored_sha256": "33d7a852c0f99d11b63e463a87db6d9aaf0bc2e72f7ec91fab5484cb779ad5ab",
+   "lines": 114,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Estimates.GeometricBoundary",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Estimates/GeometricBoundary.lean",
+   "upstream_sha256": "23d924dcc8a1291b7ce9702435e5fb3b76f6cf0ef379b1f679e1a9966e072ace",
+   "vendored_sha256": "00c69765295cd70ee940e4f3fc0d009f116d31b50f39683de77dbf2a2b80547d",
+   "lines": 65,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Intersection.BezoutBoundary",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Intersection/BezoutBoundary.lean",
+   "upstream_sha256": "99dbdfa16522a00eec982af2e82b7a990190137f75d2c5e5b1a3a650ed720bd6",
+   "vendored_sha256": "96e30d6ad8a4b1c307f1d9288abb14e3787fbf85c1a1a5697ebfc6f8b051d93f",
+   "lines": 36,
+   "edited": false,
+   "fix_categories": ""
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Conclusions.Theorem",
+   "upstream_path": "lean/OAI/NumberTheory/SiegelZeros/Conclusions/Theorem.lean",
+   "upstream_sha256": "e9444a0cbee391a4443ebddd3ccf0a70aa857e0122321421ec984e748f9098bf",
+   "vendored_sha256": "2460fe9f6ad9447d9a18a7234d48ee212433fc0b387eca8ff44eef4d7729603b",
+   "lines": 36,
+   "edited": false,
+   "fix_categories": ""
+  }
+ ],
+ "fixes": [
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.FieldAutomorphisms",
+   "line": 28,
+   "category": "simp set",
+   "diff_lines": 2,
+   "description": "Mathlib now has `QuadraticAlgebra.mk_zero_eq_C` and `QuadraticAlgebra.C_eq_algebraMap` as simp lemmas; inside `simp` they rewrite the literal `\u27e82, 0\u27e9` in the type parameter of `Biquad d` (and `\u27e8x, 0\u27e9` terms) to `algebraMap`, so `re_add`/`re_mul` no longer match and 18 `ext <;> simp` / `simp` proofs failed. One added line `attribute [-simp] QuadraticAlgebra.mk_zero_eq_C QuadraticAlgebra.C_eq_algebraMap` in each of the two `WeightedTorusJets.W11` blocks (the erasure is scoped to its namespace block); no proof changed."
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.EntireFunctions.ZeroShellBounds",
+   "line": 128,
+   "category": "module visibility",
+   "diff_lines": 1,
+   "description": "`private theorem exists_dyadic_bound` is used in the body of the exposed public def `dyadicShellIndex`; a private declaration cannot appear in an exposed body, so `private` was removed (same as the earlier port)."
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Differentials.SelectedCotangent",
+   "line": 311,
+   "category": "changed API",
+   "diff_lines": 1,
+   "description": "`IsLocalization.AtPrime.equivQuotMaximalIdeal` is now an `AlgEquiv` (`\u2243\u2090[R]`); `.symm.trans` then expects an `AlgEquiv`, so `identityResidueEquiv` (a `RingEquiv`) uses `.symm.toRingEquiv.trans`; the two dependent errors in `identityResidueEquiv_base` disappear; statements unchanged."
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.GenericRegularity",
+   "line": 12,
+   "category": "module visibility",
+   "diff_lines": 1,
+   "description": "added `public import Mathlib.RingTheory.Ideal.KrullsHeightTheorem`: `ringKrullDim_le_spanFinrank_maximalIdeal` is only reachable through a non-public Mathlib import chain."
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.GenericRegularity",
+   "line": 10,
+   "category": "module visibility",
+   "diff_lines": 1,
+   "description": "added `public import Mathlib.Algebra.Module.SpanRankOperations`: `IsLocalRing.spanFinrank_maximalIdeal_eq_finrank_cotangentSpace` is only reachable through a non-public Mathlib import chain."
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.LocalAlgebra.RegularParameterSelectionLemmas",
+   "line": 119,
+   "category": "simp set",
+   "diff_lines": 1,
+   "description": "In `projectiveResolutionOfExact`, `ShortComplex.quasiIso_iff_of_zeros'` first side goal: `simp` now closes it by itself, so the trailing `rfl` failed with \"no goals\"; `(by simp; rfl)` became `(by simp)` for that one argument (the same drift as the progressions port's BCHLatticeImageGap)."
+  },
+  {
+   "module": "OAI.NumberTheory.SiegelZeros.Structure.ConcreteArchimedean",
+   "line": 29,
+   "category": "simp set",
+   "diff_lines": 2,
+   "description": "Same drift as FieldAutomorphisms: the new simp lemmas `QuadraticAlgebra.mk_zero_eq_C` and `QuadraticAlgebra.C_eq_algebraMap` rewrite the `\u27e82, 0\u27e9` in the type of `Biquad d` inside `simp`; one added line `attribute [-simp] QuadraticAlgebra.mk_zero_eq_C QuadraticAlgebra.C_eq_algebraMap` in each of the namespace blocks `W10` and `WeightedTorusJets.W11` (the erasure is scoped to its block); no proof changed."
+  }
+ ]
+}
