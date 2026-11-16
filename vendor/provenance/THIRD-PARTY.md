@@ -9,8 +9,11 @@ states that the file was modified.
 One file, `OAI/NumberTheory/DirichletL/LogarithmicControl.lean` (558 lines, Mathlib only), used by the prime number
 theorem in arithmetic progressions (`PrimeCarleson/Proof/Fplus31/PNTSW/`) and the zero-free region
 (`PrimeCarleson/Proof/Fplus31/ZeroFree/`). It comes from openai/math commit
-`adc7f1241b42e322a6451854ab7e4b4c146bf78a`, converted to a Lean module (module header and public
-visibility), with a 9-line attribution header comment. Hashes and upstream path: `openai-logarithmic-control.json`. Licence:
+`adc7f1241b42e322a6451854ab7e4b4c146bf78a`, by way of the author's formalization of pointwise ergodic theorems
+along ⌊p^c⌋, which converted it to a Lean module (module header and public visibility). Its public repository,
+`https://github.com/anastasiosfragkosmath/Pointwise-Ergodic-Theorems-Along-floor-p-c-Palomar-Submission`, has the
+same file at commit `87f3fd829cde98edbc5eaa3deee462c598b920b0`: only the 9-line attribution header differs, and from
+line 10 on the two files are byte-identical. Hashes and upstream path: `openai-logarithmic-control.json`. Licence:
 Apache-2.0, `vendor/openai-math/LICENSE`.
 
 ## Carleson project slice (`vendor/carleson`, library `Carleson`)

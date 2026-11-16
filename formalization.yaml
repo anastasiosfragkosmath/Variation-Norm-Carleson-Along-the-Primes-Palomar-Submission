@@ -101,8 +101,9 @@ related_formalizations:
       use) and the absence of Landau–Siegel zeros (OAI/NumberTheory/SiegelZeros,
       theorem OAI.SiegelZeros.WeightedTorusJets.exists_absolute_real_zero_gap),
       together with one file, OAI/NumberTheory/DirichletL/LogarithmicControl,
-      from revision adc7f1241b42e322a6451854ab7e4b4c146bf78a. Upstream revisions,
-      licences and every change are recorded in vendor/provenance/.
+      from revision adc7f1241b42e322a6451854ab7e4b4c146bf78a, by way of the
+      ⌊p^c⌋ formalization listed below. Upstream revisions, licences and every
+      change are recorded in vendor/provenance/.
   - id: "https://github.com/fpvandoorn/carleson/tree/52cba54d4b7b444e937c7abbc67835afa2a0bb16"
     relationship: "builds-on"
     note: >-
@@ -110,7 +111,19 @@ related_formalizations:
       Hardy–Littlewood maximal theorem and Lorentz-space tools), ported from
       Lean v4.36.0-rc1 to this toolchain. Upstream declarations that contain
       sorry are commented out in the port and unused. Provenance in
-      vendor/provenance/.
+      vendor/provenance/. The Carleson project is registered on Palomar as
+      PALOMAR-2026-11-10-000006 v1, at the later commit
+      f08eb6b84bfdc7b11a4e3b6aedf38c30663ac472.
+  - id: "https://github.com/anastasiosfragkosmath/Pointwise-Ergodic-Theorems-Along-floor-p-c-Palomar-Submission/tree/87f3fd829cde98edbc5eaa3deee462c598b920b0"
+    relationship: "builds-on"
+    note: >-
+      The author's formalization "Pointwise Ergodic Theorems Along ⌊p^c⌋ for
+      Every c > 1", registered on Palomar as PALOMAR-2026-11-03-000020 v1 at
+      this commit. It converted the openai/math file DirichletL/LogarithmicControl
+      to a Lean module, and vendor/openai-math/OAI/NumberTheory/DirichletL/LogarithmicControl.lean
+      is taken from it: only the 9-line attribution header differs, and from
+      line 10 on the file is byte-identical to the file at this commit.
+      Provenance in vendor/provenance/openai-logarithmic-control.json.
 
 classification:
   arxiv: ["math.CA", "math.NT"]

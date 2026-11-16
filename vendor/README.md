@@ -7,7 +7,7 @@ Each library keeps its upstream licence and per-file provenance in `provenance/`
 |---|---|---|---|
 | `openai-math/OAI/Combinatorics/Progressions` | `OAI` (1,043 files) | openai/math `4eaee87548250b2682affda7d05d947c05554bae`, ported to Lean 4.35.0 modules and pruned to the declarations the final proofs need | `provenance/openai-progressions-files.json`, `provenance/openai-progressions-pruning.json` |
 | `openai-math/OAI/NumberTheory/SiegelZeros` | `OAI` (201 files) | openai/math `4eaee87548250b2682affda7d05d947c05554bae`, ported to Lean 4.35.0 modules | `provenance/openai-siegelzeros-files.json` |
-| `openai-math/OAI/NumberTheory/DirichletL` | `OAI` (1 file, `LogarithmicControl`) | openai/math `adc7f1241b42e322a6451854ab7e4b4c146bf78a`, converted to a Lean module | `provenance/openai-logarithmic-control.json` |
+| `openai-math/OAI/NumberTheory/DirichletL` | `OAI` (1 file, `LogarithmicControl`) | openai/math `adc7f1241b42e322a6451854ab7e4b4c146bf78a`, converted to a Lean module by the author's ⌊p^c⌋ formalization (`anastasiosfragkosmath/Pointwise-Ergodic-Theorems-Along-floor-p-c-Palomar-Submission` at `87f3fd8`) | `provenance/openai-logarithmic-control.json` |
 | `carleson/Carleson` | `Carleson` (40 files, 16,130 upstream lines) | fpvandoorn/carleson `52cba54d4b7b444e937c7abbc67835afa2a0bb16`, ported from Lean v4.36.0-rc1 | `provenance/carleson-files.json` |
 
 Licence texts: `openai-math/LICENSE` (openai/math) and

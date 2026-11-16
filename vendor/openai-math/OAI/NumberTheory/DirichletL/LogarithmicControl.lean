@@ -1,11 +1,11 @@
 /-
-Modified for this repository.
+Copied from the author's formalization at github.com/anastasiosfragkosmath/
+Pointwise-Ergodic-Theorems-Along-floor-p-c-Palomar-Submission (commit 87f3fd8), this header aside.
 Derived from openai/math at adc7f1241b42e322a6451854ab7e4b4c146bf78a.
 Upstream file: lean/OAI/NumberTheory/DirichletL/LogarithmicControl.lean
-Changes include Lean module/public-import conversion and submission integration;
-its record is vendor/provenance/openai-logarithmic-control.json.
+Changes include Lean module/public-import conversion and submission integration.
 Original notices are retained. License: Apache-2.0; see vendor/openai-math/LICENSE.
-Source hashes: vendor/provenance/openai-logarithmic-control.json.
+Provenance and source hashes: vendor/provenance/openai-logarithmic-control.json.
 -/
 module
 public import Mathlib.Analysis.Complex.BranchLogRoot
